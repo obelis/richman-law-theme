@@ -9,12 +9,32 @@
 
 <?php /* include(TEMPLATEPATH . '/inc/carousel-container.php'); */ ?>
 
-<?php include(TEMPLATEPATH . '/inc/carousel-full-width.php'); ?>
+<?php // include(TEMPLATEPATH . '/inc/carousel-full-width.php'); ?>
+</div>
+<div id="myCarousel" class="carousel slide visible-lg visible-md">
+<div class="carousel-inner">
+        <div class="item active" style="background-image: url(/wp-content/uploads/sites/12/2015/04/Queensboro-Bridge-over-New-Yor-web.jpg);background-position:center; background-size:cover;background-repeat: no-repeat;">
+<!--           <img src="http://lorempixel.com/g/1500/600/city/1" alt="First slide"> -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-large btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
 
-        
+</div>
+</div>        
   <!--         <div class="jumbotron"> -->
 
+<div class="container"> 
 
+
+
+      <div class="row">
+
+        <div class="container">
 
 
 <!--           </div> --> <!-- /.jumbotron -->

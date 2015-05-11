@@ -1,28 +1,47 @@
-<html>
-<head>
-<title>Hacked by MrTieDie</title>
-<link href='http://irfansyahp.blogspot.com/favicon.ico' rel='SHORTCUT ICON'/>
-<link href='http://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
-<meta content='Hacked by MrTieDie' name='description'/>
-<meta content='hacked by MrTieDie' name='keywords'/>
-<meta content='hacked by MrTieDie' name='Abstract'/>
-</head>
-<style>
-body{
-cursor:no-drop;
-background-color:black;
-}
-a{color:#04BA4C;text-decoration:none;width:120px;background-color:transparent;padding:2px;}
-a:link{text-decoration:none;width:120px;padding:2px;}
-a:visited{color:#04BA4C}
-a:hover{color:#04BA4C;text-decoration:none;border-radius: 10px;}
-</style>
-<body bgcolor="black" oncontextmenu="return true;" onkeydown="return true;" onmousedown="return true;">
-<center>
-<img height="" src="http://i1278.photobucket.com/albums/y504/MrTieDie/mrtiedie_zpsfeba8730.png" width=""/>
-</center>
-<center>
-<font color="transparent" face="orbitron" size="5">Hacked by MrTieDie</font><br><br>
-<font color="red" face="orbitron" size="3">Please Patch You'r System Admin!</font><br><br>
-<font color="white" face="orbitron" size="2">MrTIeDIe - Subject1996 - Zombiers Root - CoderSec - AnonQ - XCaramel - AremIey - AnonGhost - JokerTeamChild - SuramCrew</font><br>
-</center>
+<?php get_header(); ?>
+
+      <div class="row">
+
+        <div class="col-md-8">
+        
+<?php if (have_posts ()) : ?>
+<?php while (have_posts ()) : the_post(); ?>
+	
+	<div <?php post_class (); ?>> 
+		<h2><a href="<?php the_permalink() ; ?>"><?php the_title(); ?></a></h2>
+		<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
+		
+		<?php if (has_post_thumbnail()) { ?>
+			<a href="<?php the_permalink(); ?>" class="img-thumbnail"><?php 
+			$default_attr = array('class'	=> "img-responsive");
+			the_post_thumbnail('full', $default_attr); ?></a>
+		<?php } else { ?>	
+			<a href="<?php the_permalink() ; ?>" class="img-thumbnail"><img src="<?php bloginfo('template_url'); ?>/images/chessboard.jpg" class="img-responsive"/></a>
+	<?php } ?> 
+	<?php the_excerpt(''); ?>
+ <p><a class="btn btn-default" href="<?php the_permalink() ?>">Read More &raquo;</a></p>
+
+	</diV>
+	
+	
+	<?php endwhile; ?>
+	
+	<?php include (TEMPLATEPATH . '/inc/nav.php' ); ?>
+	
+	<?php else : ?>
+	
+	<div class="nothing">
+		<h2>Nothing Found</h2>
+		<p>Sorry, but you are looking for something that isn't here.</p>
+		<p><a href="<?php echo get_option ('home'); ?>">Return to the homepage</a></p>
+	</diV>
+	<?php endif ; ?>
+
+
+
+
+        </div><!--/span-->
+    
+     <?php get_sidebar(); ?>
+     </div>
+     <?php get_footer(); ?>
