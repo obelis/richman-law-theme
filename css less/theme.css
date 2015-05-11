@@ -1,0 +1,17 @@
+
+
+.navbar-default .navbar-nav > .current-menu-item > a, .navbar-default .navbar-nav > .current-menu-item > a:hover, .navbar-default .navbar-nav > .current-menu-item > a:focus {
+color: #555;
+background-color: #E7E7E7;
+}
+
+.menu-header .navbar-inverse .navbar-nav > .current-menu-item > a, .menu-header .navbar-inverse .navbar-nav > .current-menu-item > a:hover, .menu-header .navbar-inverse .navbar-nav > .current-menu-item > a:focus {
+  background-color: #080808;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #080808;
+  color: white;
+}

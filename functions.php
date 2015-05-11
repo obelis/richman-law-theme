@@ -1,30 +1,48 @@
 <?php
-/**
- * Sage includes
- *
- * The $sage_includes array determines the code library included in your theme.
- * Add or remove files to the array as needed. Supports child theme overrides.
- *
- * Please note that missing files will produce a fatal error.
- *
- * @link https://github.com/roots/sage/pull/1042
- */
-$sage_includes = [
-  'lib/utils.php',                 // Utility functions
-  'lib/init.php',                  // Initial theme setup and constants
-  'lib/wrapper.php',               // Theme wrapper class
-  'lib/conditional-tag-check.php', // ConditionalTagCheck class
-  'lib/config.php',                // Configuration
-  'lib/assets.php',                // Scripts and stylesheets
-  'lib/titles.php',                // Page titles
-  'lib/extras.php',                // Custom functions
-];
-
-foreach ($sage_includes as $file) {
-  if (!$filepath = locate_template($file)) {
-    trigger_error(sprintf(__('Error locating %s for inclusion', 'sage'), $file), E_USER_ERROR);
-  }
-
-  require_once $filepath;
+	
+	// Add RSS links to <head> section
+	automatic_feed_links();
+	
+	// Add post thumbnail support
+	add_theme_support( 'post-thumbnails' ); 
+	
+	// Add Menu Support
+	add_theme_support( 'menus' );
+	add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+	function special_nav_class($classes, $item){
+	 if( in_array('current-menu-item', $classes) ){
+	         $classes[] = 'active ';
+	 }
+	 return $classes;
 }
-unset($file, $filepath);
+		
+	// Load jQuery
+	if ( !is_admin() ) {
+	   wp_deregister_script('jquery');
+/* 	   wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"), false); */
+	   wp_enqueue_script('jquery');
+	}
+	
+	// Clean up the <head>
+	function removeHeadLinks() {
+    	remove_action('wp_head', 'rsd_link');
+    	remove_action('wp_head', 'wlwmanifest_link');
+    }
+    add_action('init', 'removeHeadLinks');
+    remove_action('wp_head', 'wp_generator');
+    
+    if (function_exists('register_sidebar')) {
+    	register_sidebar(array(
+    		'name' => 'Sidebar Widgets',
+    		'id'   => 'sidebar-widgets',
+    		'description'   => 'These are widgets for the sidebar.',
+    		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    		'after_widget'  => '</div>',
+    		'before_title'  => '<h2>',
+    		'after_title'   => '</h2>'
+    	));
+    }
+
+	
+
+?>
