@@ -32,26 +32,28 @@
   <div class="row">
     <div class="col-md-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
-      <h2>Mobile-first</h2>
-      <p>Tablets, phones, laptops. The new 3 promises to be mobile friendly from the start.</p>
-      <p><a class="btn btn-primary" href="#">View details <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+      <h2>In The News</h2>
+      <p>Eric Richman as been featured in countless news articles and stories.</p>
+      <p><a class="btn btn-primary" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a></p>
     </div>
     <div class="col-md-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
-      <h2>One Fluid Grid</h2>
-      <p>There is now just one percentage-based grid for Bootstrap 3. Customize for fixed widths.</p>
-      <p><a class="btn btn-primary" href="#">View details <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+      <h2>TV Appearances</h2>
+      <p>See Eric Richman in action interviewed on CNN.</p>
+      <p><a class="btn btn-primary" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a></p>
     </div>
     <div class="col-md-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
-      <h2>LESS is More</h2>
-      <p>Improved support for mixins make the new Bootstrap 3 easier to customize.</p>
-      <p><a class="btn btn-primary" href="#">View details <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+      <h2>Success Stories</h2>
+      <p>Eric Richman works for you producing real results.</p>
+      <p><a class="btn btn-primary" href="#">Read the Results <span class="glyphicon glyphicon-arrow-right"></span></a></p>
     </div>
   </div><!-- /.row -->
 </div> <!--/.container -->
 
 <div class="container-fluid">
+<div style="width:100%; height:40px; background-color:#4d8bc2;">
+</div>
 </div>
 
 <div class="container">
@@ -75,6 +77,8 @@
 </div><!-- /.container -->
 
 <div class="container-fluid">
+<div style="width:100%; height:40px; background-color:#4d8bc2;">
+</div>
 </div>
 
 <div class="container reviews">
@@ -88,11 +92,11 @@
         	<h3><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><br /><small>Kelsey Plantas</small></h3><p>Eric is a great attorney. He is highly knowledgable, professional, and personable. He made me feel comfortable throughout the whole process of settling my case. Eric also made sure that I understood every step towards settlement, which made me feel more at ease with the decisions I had to make. I would definitely recommend working with Eric.</p>
         </div>
 		<div class="col-md-4">
-        	<h3><span class="glyphicon glyphicon-warning-sign"></span><span class="glyphicon glyphicon-warning-sign"></span><span class="glyphicon glyphicon-warning-sign"></span><span class="glyphicon glyphicon-warning-sign"></span><span class="glyphicon glyphicon-warning-sign"></span><br /><small>Marisa Kronenberg</small></h3><p>Eric Richman is very honest, intelligent, and easy to talk to. He made himself available to me whenever I had questions and I always felt at ease knowing he was working hard for my case. He exceeded my expectations and I would recommend him to anyone looking for a personal injury lawyer!</p>
+        	<h3><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><br /><small>Marisa Kronenberg</small></h3><p>Eric Richman is very honest, intelligent, and easy to talk to. He made himself available to me whenever I had questions and I always felt at ease knowing he was working hard for my case. He exceeded my expectations and I would recommend him to anyone looking for a personal injury lawyer!</p>
         </div>
         <div class="col-md-4">
-        	<h3><span class="glyphicon glyphicon-cloud"></span><span class="glyphicon glyphicon-cloud"></span><span class="glyphicon glyphicon-cloud"></span><span class="glyphicon glyphicon-cloud"></span><span class="glyphicon glyphicon-cloud"></span><br /><small>Paula Medeiros</small></h3><p>Extremely aggressive. Have already recommended him to a friend who also got in an accident. 10 out of 10!</p>
-            <h3><span class="glyphicon glyphicon-cloud"></span><span class="glyphicon glyphicon-cloud"></span><span class="glyphicon glyphicon-cloud"></span><span class="glyphicon glyphicon-cloud"></span><span class="glyphicon glyphicon-cloud"></span><br /><small>Shad Azimi</small></h3><p>Excellent communicator with deep knowledge of the legal process. Also very responsive. Highly recommended.</p>
+        	<h3><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><br /><small>Paula Medeiros</small></h3><p>Extremely aggressive. Have already recommended him to a friend who also got in an accident. 10 out of 10!</p>
+            <h3><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><br /><small>Shad Azimi</small></h3><p>Excellent communicator with deep knowledge of the legal process. Also very responsive. Highly recommended.</p>
         </div>
     </div><!--/row-->
     <div class="row">
