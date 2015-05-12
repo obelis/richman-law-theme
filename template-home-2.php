@@ -26,20 +26,20 @@
 
 <div class="container">
   <!-- Three columns of text below the carousel -->
-  <div class="row">
-    <div class="col-md-4 text-center">
+  <div class="row height-fix">
+    <div class="col-md-4 text-center height-fix-item">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>In The News</h2>
       <p>Eric Richman as been featured in countless news articles and stories.</p>
-      <p><a class="btn btn-primary" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+      <p><a class="btn btn-primary height-fix-bottom" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a></p>
     </div>
-    <div class="col-md-4 text-center">
+    <div class="col-md-4 text-center height-fix-item">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>TV Appearances</h2>
       <p>See Eric Richman in action interviewed on CNN.</p>
       <p><a class="btn btn-primary" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a></p>
     </div>
-    <div class="col-md-4 text-center">
+    <div class="col-md-4 text-center height-fix-item">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>Success Stories</h2>
       <p>Eric Richman works for you producing real results.</p>
@@ -59,14 +59,14 @@
         	<div class="well height-fix-item">
                 <h2>Practice Information</h2>
                 <p>The Law Offices of Eric Richman provides outstanding personal injury legal representation to individuals and families who suffered injuries in and around New York, including New York City, Bronx, Queens, Manhattan, Brooklyn, Staten Island, Rockland, Westchester, Long Island, Nassau County or Suffolk County.</p>
-                <a class="btn btn-large btn-primary" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
+                <a class="btn btn-large btn-primary height-fix-bottom" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
         </div>
         <div class="col-md-4">
         	<div class="well height-fix-item">
                 <h2>About Eric Richman</h2>
                 <p>Eric Richman, Esq. is a passionate and experienced New York City personal injury lawyer who has dedicated his career to fighting for injury victims and their families.  Mr. Richman has won millions of dollars for his clients and is one of the best known and most respected personal injury lawyers in NYC </p>
-                <a class="btn btn-large btn-primary" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
+                <a class="btn btn-large btn-primary height-fix-bottom" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
         </div>
         <div class="col-md-4">
@@ -82,7 +82,7 @@
                     <li>Medical Malpractice</li>
                     <li>Wrongful Death and Catastrophic Injuries</li>
                 </ul>
-                <a class="btn btn-large btn-primary" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
+                <a class="btn btn-large btn-primary height-fix-bottom" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
         </div>
 	</div><!--/.row-->

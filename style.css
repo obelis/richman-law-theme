@@ -124,3 +124,13 @@ tr { page-break-inside: avoid; }
 a { text-decoration: none; color: black; }
 	
 } /* END print media */
+
+.height-fix{
+	display:flex;
+}
+.height-fix-item{
+	align-items: stretch;
+}
+.height-fix-bottom{
+	align-self: flex-end;
+}
