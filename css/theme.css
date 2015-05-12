@@ -134,6 +134,7 @@ html, body {
 }
 
 .vertical-center{
+	margin: 0px;
 	height:100%;
 	min-height:20px;
 	display: -webkit-flex;
