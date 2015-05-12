@@ -32,7 +32,7 @@
                               <span class="icon-bar"></span>
                             </button>
                         </div>
-                        <div class="verticle-center">
+                        <div class="vertical-center">
                             <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header navbar-collapse collapse', 'menu_class' => 'nav navbar-nav' ) ); ?>
                         </div>
                     </div>
