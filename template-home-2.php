@@ -49,7 +49,7 @@
 </div> <!--/.container -->
 
 <div class="container-fluid">
-<div style="width:100%; height:100px; background-color:#4d8bc2; margin: 20px auto;">
+<div class="parallax-window" style="width:100%; height:50vh; background-color:#4d8bc2; margin: 20px auto;" data-parallax="scroll" data-image-src="<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-106-web.jpg">
 </div>
 </div>
 
@@ -89,7 +89,7 @@
 </div><!-- /.container -->
 
 <div class="container-fluid">
-<div style="width:100%; height:100px; background-color:#4d8bc2; margin: 20px auto;">
+<div class="parallax-window" style="width:100%; height:50vh; background-color:#4d8bc2; margin: 20px auto;" data-parallax="scroll" data-image-src="<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-93-web.jpg">
 </div>
 </div>
 
