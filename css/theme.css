@@ -133,7 +133,7 @@ html, body {
 	margin:0px;
 }
 
-.vertical-center{
+.vertical-center-xs{
 	height: 100%;
 	display: -webkit-flex;
 	display:         flex;
@@ -147,9 +147,38 @@ html, body {
 	.header{
 		height:140px;
 	}
+	.vertical-center-sm{
+		height: 100%;
+		display: -webkit-flex;
+		display:         flex;
+		-webkit-align-items: center;
+		align-items: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+	}
 }
 @media (min-width: 992px){
 	.header{
 		height:120px;
+	}
+	.vertical-center-md{
+		height: 100%;
+		display: -webkit-flex;
+		display:         flex;
+		-webkit-align-items: center;
+		align-items: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+	}
+}
+@media (min-width: 1200px;){
+	.vertical-center-lg{
+		height: 100%;
+		display: -webkit-flex;
+		display:         flex;
+		-webkit-align-items: center;
+		align-items: center;
+		-webkit-justify-content: center;
+		justify-content: center;
 	}
 }
