@@ -23,7 +23,7 @@
 		<img src="data:image/png;base64," data-src="<?php bloginfo('template_url'); ?>/js/holder.js/400x100/text:LOGO" alt="First slide" class="img-responsive img-thumbnail logo" />
         	</div>
             <div class="col-lg-8 col-md-8 col-sm-9">
-                <div class="navbar-wrapper">
+                <div class="navbar-wrapper vertical-center">
                     <div class="navbar navbar-default">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -32,7 +32,7 @@
                               <span class="icon-bar"></span>
                             </button>
                         </div>
-                        <div class="vertical-center">
+                        <div>
                             <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header navbar-collapse collapse', 'menu_class' => 'nav navbar-nav' ) ); ?>
                         </div>
                     </div>
