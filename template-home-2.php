@@ -24,6 +24,8 @@
 	</div><!-- /.carousel-inner -->
 </div><!-- carousel -->
 
+
+
 <div class="container">
   <!-- Three columns of text below the carousel -->
   <div class="row height-fix">
