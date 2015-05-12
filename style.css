@@ -127,8 +127,6 @@ a { text-decoration: none; color: black; }
 
 .height-fix{
 	display:flex;
-}
-.height-fix-item{
 	align-items: stretch;
 }
 .height-fix-bottom{
