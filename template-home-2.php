@@ -49,7 +49,7 @@
 </div> <!--/.container -->
 
 <div class="container-fluid">
-<div class="parallax-window" style="width:100%; height:50vh; background-color:#4d8bc2; margin: 20px auto;" data-parallax="scroll" data-image-src="<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-106-web.jpg">
+<div class="parallax-window" style="width:100%; height:50vh; background-color:#4d8bc2; background-image:url('<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-106-web.jpg'); background-size:cover; background-position:center center;margin: 20px auto;">
 </div>
 </div>
 
@@ -89,7 +89,7 @@
 </div><!-- /.container -->
 
 <div class="container-fluid">
-<div class="parallax-window" style="width:100%; height:50vh; background-color:#4d8bc2; background-image:url('<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-93-web.jpg');margin: 20px auto;" data-parallax="scroll" data-image-src="<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-93-web.jpg">
+<div class="parallax-window" style="width:100%; height:50vh; background-color:#4d8bc2; background-image:url('<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-93-web.jpg'); background-size:cover; background-position:center center; margin: 20px auto;">
 </div>
 </div>
 
