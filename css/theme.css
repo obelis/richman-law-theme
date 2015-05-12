@@ -144,12 +144,12 @@ html, body {
 }
 
 @media (min-width: 768px;){
-	.header, .logo, .navbar{
+	.header, .logo, .navbar-wrapper{
 		height:140px;
 	}
 }
 @media (min-width: 992px;){
-	.header, .logo, .navbar{
+	.header, .logo, .navbar-wrapper{
 		height:120px;
 	}
 }

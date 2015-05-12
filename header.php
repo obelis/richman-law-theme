@@ -24,7 +24,7 @@
         	</div>
             <div class="col-lg-8 col-md-8 col-sm-9">
                 <div class="navbar-wrapper">
-                    <div class="navbar navbar-default">
+                    <div class="navbar navbar-default vertical-center">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                               <span class="icon-bar"></span>
@@ -32,7 +32,7 @@
                               <span class="icon-bar"></span>
                             </button>
                         </div>
-                        <div class="vertical-center">
+                        <div>
                             <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header navbar-collapse collapse', 'menu_class' => 'nav navbar-nav' ) ); ?>
                         </div>
                     </div>
