@@ -134,6 +134,7 @@ html, body {
 }
 
 .vertical-center{
+	height: 100%;
 	display: -webkit-flex;
 	display:         flex;
 	-webkit-align-items: center;
@@ -143,12 +144,12 @@ html, body {
 }
 
 @media (min-width: 768px){
-	.header, .header .vertical-center{
+	.header{
 		height:140px;
 	}
 }
 @media (min-width: 992px){
-	.header, .header .vertical-center{
+	.header{
 		height:120px;
 	}
 }
