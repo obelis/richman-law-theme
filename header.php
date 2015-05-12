@@ -16,7 +16,7 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	<div class="container header vertical-center">
+	<div class="container header">
     	<div class="row">
         	<div class="col-lg-4 col-md-4 col-sm-3">
 	
@@ -32,7 +32,7 @@
                               <span class="icon-bar"></span>
                             </button>
                         </div>
-                        <div>
+                        <div class="vertical-center">
                             <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header navbar-collapse collapse', 'menu_class' => 'nav navbar-nav' ) ); ?>
                         </div>
                     </div>

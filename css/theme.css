@@ -143,16 +143,13 @@ html, body {
 	justify-content: center;
 }
 
-.header{
-	position:absolute;
-}
 @media (min-width: 768px;){
-	.header{
+	.header, .logo, .navbar{
 		height:140px;
 	}
 }
 @media (min-width: 992px;){
-	.header{
+	.header, .logo, .navbar{
 		height:120px;
 	}
 }
