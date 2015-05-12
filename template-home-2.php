@@ -37,13 +37,13 @@
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>TV Appearances</h2>
       <p>See Eric Richman in action interviewed on CNN.</p>
-      <p><a class="btn btn-primary" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+      <p><a class="btn btn-primary height-fix-bottom" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a></p>
     </div>
     <div class="col-md-4 text-center height-fix-item">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>Success Stories</h2>
       <p>Eric Richman works for you producing real results.</p>
-      <p><a class="btn btn-primary" href="#">Read the Results <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+      <p><a class="btn btn-primary height-fix-bottom" href="#">Read the Results <span class="glyphicon glyphicon-arrow-right"></span></a></p>
     </div>
   </div><!-- /.row -->
 </div> <!--/.container -->
