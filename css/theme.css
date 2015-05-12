@@ -134,7 +134,6 @@ html, body {
 }
 
 .vertical-center{
-	height: 100%;
 	display: -webkit-flex;
 	display:         flex;
 	-webkit-align-items: center;
