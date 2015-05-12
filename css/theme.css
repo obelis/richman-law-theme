@@ -143,12 +143,12 @@ html, body {
 }
 
 @media (min-width: 768px){
-	.header, .logo, .navbar-wrapper{
+	.header, .header .vertical-center{
 		height:140px;
 	}
 }
 @media (min-width: 992px){
-	.header, .logo, .navbar-wrapper{
+	.header, .header .vertical-center{
 		height:120px;
 	}
 }
