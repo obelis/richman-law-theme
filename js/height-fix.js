@@ -26,8 +26,8 @@ function heightFix(){
         // Get First Key in maxHeight Array and convert to string for CSS
         for (ib = 0; ib < heightFixItems.length; ib++){
             heightFixItems[ib].style.height = itemHeights[0] + "px";
-			heightFixItems[ib].style.display = "flex";
         }
-		jQuery('.height-fix-bottom').css("align-self", "flex-bottom");
+		jQuery('.height-fix-bottom').css("position", "absolute");
+		jQuery('.height-fix-bottom').css("bottom", "0px");
     }
 }
