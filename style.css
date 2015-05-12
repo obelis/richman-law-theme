@@ -124,3 +124,24 @@ tr { page-break-inside: avoid; }
 a { text-decoration: none; color: black; }
 	
 } /* END print media */
+
+.verticle-center{
+	min-height:20px;
+	display: -webkit-flex;
+	display:         flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+@media (min-width: 768px;){
+	.header{
+		height:140px;
+	}
+}
+@media (min-width: 992px;){
+	.header{
+		height:120px;
+	}
+}
