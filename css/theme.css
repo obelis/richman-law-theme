@@ -170,8 +170,8 @@ html, body {
 }
 .page-intro img{
 	position:relative;
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
 	z-index:-1;
 	-webkit-align-self: flex-start;
 	align-self: flex-start;
