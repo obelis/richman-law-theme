@@ -129,12 +129,39 @@ html, body {
     overflow-x: hidden;
 }
 
+
+/* Site Header Styles */
 .navbar{
 	margin:0px;
 	border: none;
 	background-color: rgba(0,0,0,.8);
 }
+@media (min-width: 768px){
+	.header{
+			height:140px;
+	}
+}
+@media (min-width: 992px){
+	.header{
+		height:120px;
+	}
+}
+/* Site Header Styles End */
 
+/* Page Big Intro Styles */
+@media (min-width: 768px){
+	.page-intro{
+		margin-top: -140px;
+	}
+}
+@media (min-width: 992px){
+	.page-intro{
+		margin-top: -120px;
+	}
+}
+/* Page Big Intro Styles End */
+
+/* Vertical Align with Bootstrap Sizing */
 .vertical-center-xs{
 	height: 100%;
 	display: -webkit-flex;
@@ -146,9 +173,6 @@ html, body {
 }
 
 @media (min-width: 768px){
-	.header{
-		height:140px;
-	}
 	.vertical-center-sm{
 		height: 100%;
 		display: -webkit-flex;
@@ -160,9 +184,6 @@ html, body {
 	}
 }
 @media (min-width: 992px){
-	.header{
-		height:120px;
-	}
 	.vertical-center-md{
 		height: 100%;
 		display: -webkit-flex;
@@ -184,3 +205,4 @@ html, body {
 		justify-content: center;
 	}
 }
+/* Vertical Align with Bootstrap Sizing End */
