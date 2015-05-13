@@ -133,6 +133,10 @@ html, body {
 /* Site Header Styles */
 .header{
 	position:fixed;
+	left:0px;
+	right:0px;
+	margin:inherit auto;
+	
 }
 .navbar{
 	margin:0px;
