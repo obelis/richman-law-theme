@@ -277,7 +277,7 @@ html, body {
 
 /* Parallax */
 .parallax-window{
-	perspective: 1px;
 	overflow: hidden;
+	box-shadow:inset 0px 0px 5px #000;
 }
 /* Parallax End */
