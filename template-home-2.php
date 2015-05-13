@@ -5,12 +5,7 @@
  */
  ?>
  <?php get_header(); ?>
-
-
-<?php /* include(TEMPLATEPATH . '/inc/carousel-container.php'); */ ?>
-
-<?php // include(TEMPLATEPATH . '/inc/carousel-full-width.php'); ?>
-</div>
+<?php /*
 <div id="myCarousel" class="carousel slide visible-lg visible-md">
 	<div class="carousel-inner">
         <div class="item active" style="background-image: url(/wp-content/uploads/sites/12/2015/04/Queensboro-Bridge-over-New-Yor-web.jpg);background-position:center; background-size:cover;background-repeat: no-repeat;">
@@ -23,8 +18,14 @@
         </div><!-- /.item -->
 	</div><!-- /.carousel-inner -->
 </div><!-- carousel -->
-
-
+*/ ?>
+<div class="fluid-container page-intro">
+    <img src="/wp-content/uploads/sites/12/2015/04/Queensboro-Bridge-over-New-Yor-web.jpg" alt="Queensboro Bridge leading to Upper East Side Manhattan New York City" />
+    <div class="container page-intro-info">
+    	<h1 class="page-headline">Personal Injury Justice for New York City</h1>
+        <p class="page-tagline">The Law Offices of Eric Richman specializes on Personal Injury law in New York City. Our team of experienced New York trial attorneys work with leading investigators, medial experts and financial experts to prepare a strong case. Our success is contingent on yours.</p>
+    </div>
+</div>
 
 <div class="container">
   <!-- Three columns of text below the carousel -->
