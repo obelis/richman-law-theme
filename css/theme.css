@@ -185,15 +185,16 @@ html, body {
 	}
 }
 .page-intro{
-	height: calc((100vw / 8) * 3);
+	height: calc((100vw / 16) * 8);
 	overflow:hidden;
 	position: relative;
 	margin-bottom: 30px;
 }
 .page-intro img{
 	position:relative;
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
+	margin: 0px auto;
 	z-index:-1;
 }
 .page-intro-info{
