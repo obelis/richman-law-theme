@@ -51,7 +51,7 @@
   </div><!-- /.row -->
 </div> <!--/.container -->
 
-<div class="container-fluid parallax-window feature-divider">
+<div class="container-fluid feature-divider parallax-window">
 	<div class="parallax-window-set parallax-window-background">
     	<img src="<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-106-web.jpg" alt="New York City Supreme Court" style="width:100%;
         height:auto;"/>
