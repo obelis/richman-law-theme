@@ -160,7 +160,7 @@ html, body {
 	}
 }
 .page-intro{
-	height: 46vw;
+	height: calc((100vw / 16) * 9);
 	overflow:hidden;
 	position: relative;
 	display: -webkit-flex;
