@@ -172,15 +172,22 @@ html, body {
 	z-index:-1;
 }
 .page-intro-info{
-	background-color: rgba(255,255,255,.5);
+	background-color: rgba(0,0,0,.8);
 	position: absolute;
 	bottom: 30px;
 	left: 0px;
 	right:0px;
 	margin: 0px auto;
+	border-radius: 4px;
 	z-index: 1;
 }
-
+.page-headline{
+	color: white;
+	box-shadow: 2px 2px #000;
+}
+.page-tagline{
+	color: white;
+}
 /* Page Big Intro Styles End */
 
 /* Vertical Align with Bootstrap Sizing */
