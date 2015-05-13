@@ -278,17 +278,9 @@ html, body {
 /* Parallax */
 .parallax-window{
 	perspective: 1px;
-	overflow-x: hidden;
-	overflow-y: auto;
+	overflow: hidden;
 }
-.parallax-window-set{
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
-}
-.parallax-window-background{
-	transform: translateZ(-1px);
+.parallax-window-scroll{
+	transform: translateY(100vh);
 }
 /* Parallax End */
