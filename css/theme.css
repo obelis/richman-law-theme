@@ -191,7 +191,9 @@ html, body {
 	margin-bottom: 30px;
 }
 .page-intro img{
-	position:relative;
+	position:absolute;
+	top: 0px;
+	right: -5%;
 	width: auto;
 	height: 100%;
 	z-index:-1;
