@@ -183,10 +183,12 @@ html, body {
 }
 .page-headline{
 	color: white;
-	box-shadow: 2px 2px #000;
+	text-shadow: 2px 2px #FFF;
+	text-align:center;
 }
 .page-tagline{
 	color: white;
+	text-align:center
 }
 /* Page Big Intro Styles End */
 
