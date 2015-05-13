@@ -280,7 +280,4 @@ html, body {
 	perspective: 1px;
 	overflow: hidden;
 }
-.parallax-window-scroll{
-	transform: translateY(100vh);
-}
 /* Parallax End */
