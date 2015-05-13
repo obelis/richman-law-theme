@@ -165,12 +165,13 @@ html, body {
 	position: relative;
 }
 .page-intro img{
+	position:relative;
 	width: 100%;
 	height: auto;
+	z-index:-1;
+	
 }
 .page-intro-info{
-	position: absolute;
-	bottom: 0px;
 	background-color: rgba(255,255,255,.5);
 }
 
