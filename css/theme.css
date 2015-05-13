@@ -159,6 +159,21 @@ html, body {
 		margin-top: -120px;
 	}
 }
+.page-intro{
+	height: 46vw;
+	overflow:hidden;
+	position: relative;
+}
+.page-intro img{
+	width: 100%;
+	height: auto;
+}
+.page-intro-info{
+	position: absolute;
+	bottom: 0px;
+	background-color: rgba(255,255,255,.5);
+}
+
 /* Page Big Intro Styles End */
 
 /* Vertical Align with Bootstrap Sizing */
