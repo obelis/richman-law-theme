@@ -143,8 +143,19 @@ html, body {
 	border: none;
 	background-color: rgba(0,0,0,.8);
 }
+.navbar-toggle{
+	background-color: #356187;
+	border:2px;
+}
+.navbar-toggle:hover, .navbar-toggle:focus{
+	background-color: transparent;
+}
 .navbar-toggle::before{
 	content: "Navigation Menu";
+	color:white;
+	position:absolute;
+	right:10px;
+	width:200px;
 }
 .navbar-collapse{
 	border: none;
