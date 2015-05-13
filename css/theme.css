@@ -194,7 +194,6 @@ html, body {
 	position:relative;
 	width: auto;
 	height: 100%;
-	margin: 0px auto;
 	z-index:-1;
 }
 .page-intro-info{
