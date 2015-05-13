@@ -131,6 +131,9 @@ html, body {
 
 
 /* Site Header Styles */
+.header{
+	position:fixed;
+}
 .navbar{
 	margin:0px;
 	border: none;
