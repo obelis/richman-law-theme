@@ -6,7 +6,7 @@ function parallax(){
 		var scrollTop = $window.scrollTop();
 		parallaxItems.each(function(){
 			var $this = jQuery(this);
-			var scrollSpeed = -(scrollTop / 6);
+			var scrollSpeed = -(scrollTop / 2);
 			$this.css('transform', 'translateY(' + scrollSpeed + 'px');
 		});
 	});
