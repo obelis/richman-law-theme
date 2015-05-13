@@ -183,7 +183,7 @@ html, body {
 }
 .page-headline{
 	color: white;
-	text-shadow: 2px 2px #FFF;
+	text-shadow: 2px 2px 4px rgba(240,240,240,.5);
 	text-align:center;
 }
 .page-tagline{
