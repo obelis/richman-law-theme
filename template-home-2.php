@@ -51,9 +51,11 @@
   </div><!-- /.row -->
 </div> <!--/.container -->
 
-<div class="container-fluid">
-<div class="parallax-window" style="width:100%; height:50vh; background-color:#4d8bc2; background-image:url('<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-106-web.jpg'); background-size:cover; background-position:center center;margin: 20px auto;">
-</div>
+<div class="container-fluid parallax-window feature-divider">
+	<div class="parallax-window-set parallax-window-background">
+    	<img src="<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-106-web.jpg" alt="New York City Supreme Court" style="width:100%;
+        height:auto;"/>
+    </div>
 </div>
 
 <div class="container">
