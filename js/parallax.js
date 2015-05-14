@@ -21,7 +21,7 @@ function heightGrabber(){
 	var parallaxItems = jQuery('.parallax-window');
 	var parallaxItemDistances;
 	jQuery(parallaxItems).each(function(index, element) {
-		var pd = jQuery(this).scrollTop();
+		var pd = jQuery(this).offset.top;
 		console.log(pd);
     });
 }
