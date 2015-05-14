@@ -14,6 +14,8 @@ function parallax(){
 	});
 }
 function heightGrabber(){
-	var documentTotalHeight = jQuery(document).outerHeight(true);
-	console.log(documentTotalHeight);
+	var totalHeight = jQuery(document).outerHeight(true);
+	var viewableHeight = jQuery(window).height();
+	console.log(totalHeight);
+	console.log(viewableHeight);
 }
