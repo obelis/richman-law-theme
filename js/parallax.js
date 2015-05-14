@@ -19,9 +19,8 @@ function heightGrabber(){
 	console.log(totalHeight);
 	console.log(viewableHeight);
 	var parallaxItems = jQuery('.parallax-window');
-	var parallaxItemDistances;
 	jQuery(parallaxItems).each(function(index, element) {
-		var pd = jQuery(this).offset.top;
-		console.log(pd);
+		var parallaxItemDistance = jQuery(this).offset();
+		console.log(parallaxItemDistance.top);
     });
 }
