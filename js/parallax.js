@@ -18,7 +18,7 @@ function heightGrabber(){
 	var viewableHeight = jQuery(window).height();
 	console.log(totalHeight);
 	console.log(viewableHeight);
-	var parallaxItems = jQuery('.parallax-scroll');
+	var parallaxItems = jQuery('.parallax-window');
 	var parallaxItemDistances;
 	jQuery(parallaxItems).each(function(index, element) {
 		var pd = jQuery(this).scrollTop();
