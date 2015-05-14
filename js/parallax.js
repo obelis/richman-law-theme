@@ -14,6 +14,6 @@ function parallax(){
 	});
 }
 function heightGrabber(){
-	var documentTotalHeight = jQuery(document).outerHeight([includeMargin]);
+	var documentTotalHeight = jQuery(document).outerHeight(includeMargin);
 	console.log(documentTotalHeight);
 }
