@@ -1,6 +1,6 @@
 jQuery(document).ready(parallax);
 jQuery(document).ready(heightGrabber);
-jQuery(document).resize(heightGrabber);
+jQuery(window).resize(heightGrabber);
 function parallax(){
 	var parallaxItems = jQuery('.parallax-scroll');
 	var $window = jQuery(window);
