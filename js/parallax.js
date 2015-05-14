@@ -1,4 +1,6 @@
 jQuery(document).ready(parallax);
+jQuery(document).ready(heightGrabber);
+jQuery(document).resize(heightGrabber);
 function parallax(){
 	var parallaxItems = jQuery('.parallax-scroll');
 	var $window = jQuery(window);
@@ -10,4 +12,8 @@ function parallax(){
 			$this.css('transform', 'translateY(' + scrollSpeed + 'px');
 		});
 	});
+}
+function heightGrabber(){
+	var documentTotalHeight = jQuery(document).outerHeight([includeMargin]);
+	console.log(documentTotalHeight);
 }
