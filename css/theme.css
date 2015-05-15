@@ -284,6 +284,11 @@ html, body {
 }
 /* Vertical Align with Bootstrap Sizing End */
 
+.law-col{
+	background-color: rgb(240,240,240);
+	background: linear-gradient(to right, rgba(240,240,240,1) 0%,rgba(206,206,206,1) 50%,rgba(240,240,240,1) 100%);
+}
+
 /* Feature Divider */
 .feature-divider{
 	width:100%;
