@@ -194,7 +194,8 @@ html, body {
 @media (max-width: 768px){
 	.page-intro{
 		margin-top: 0px;
-		overflow: visible;
+		overflow: hidden;
+		height: calc((100vw / 16) * 12);
 	}
 	.page-intro-info{
 		background-color: rgba(0,0,0,.8);
