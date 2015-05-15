@@ -187,7 +187,7 @@ html, body {
 	}
 		
 }
-@media (min-width: 768px){
+/*@media (min-width: 768px){
 	.page-intro{
 		margin-top: -140px;
 		height: calc((100vw / 16) * 12);
@@ -202,7 +202,7 @@ html, body {
 	.page-intro{
 		height: calc((100vw / 16) * 8);
 	}
-}
+}*/
 .page-intro{
 	height: 90vh;
 	overflow:hidden;
