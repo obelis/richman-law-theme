@@ -340,6 +340,7 @@ html, body {
 	border-bottom: 30px solid rgb(180,180,180);
 	border-left: 30px solid rgb(255,255,255);
 	border-right: 30px solid rgb(255,255,255);
+	box-sizing: border-box;
 }
 
 .law-col{
