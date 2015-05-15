@@ -174,19 +174,7 @@ html, body {
 /* Site Header Styles End */
 
 /* Page Big Intro Styles */
-@media (max-width: 767px){
-	.page-intro{
-		margin-top: 0px;
-		overflow: visible;
-	}
-	.page-intro-info{
-		background-color: rgba(0,0,0,.8);
-		position: relative;
-		border-radius: 4px;
-		z-index: 1;
-	}
-		
-}
+
 /*@media (min-width: 768px){
 	.page-intro{
 		margin-top: -140px;
@@ -203,11 +191,27 @@ html, body {
 		height: calc((100vw / 16) * 8);
 	}
 }*/
-.page-intro{
-	height: 90vh;
-	overflow:hidden;
-	position: relative;
-	margin-bottom: 30px;
+@media (max-width: 768px){
+	.page-intro{
+		margin-top: 0px;
+		overflow: visible;
+	}
+	.page-intro-info{
+		background-color: rgba(0,0,0,.8);
+		position: relative;
+		border-radius: 4px;
+		z-index: 1;
+	}
+		
+}
+
+@media (min-width: 769px){
+	.page-intro{
+		height: 90vh;
+		overflow:hidden;
+		position: relative;
+		margin-bottom: 30px;
+	}
 }
 .page-intro img{
 	position:absolute;
