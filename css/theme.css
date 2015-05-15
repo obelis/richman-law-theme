@@ -284,6 +284,54 @@ html, body {
 }
 /* Vertical Align with Bootstrap Sizing End */
 
+/*Vertical Stretch with Bootstrap Sizing */
+.vertical-stretch-xs{
+	height: 100%;
+	display: -webkit-flex;
+	display:         flex;
+	-webkit-align-items: center;
+	align-items: stretch;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+@media (min-width: 768px){
+	.vertical-stretch-sm{
+		height: 100%;
+		display: -webkit-flex;
+		display:         flex;
+		-webkit-align-items: center;
+		align-items: stretch;
+		-webkit-justify-content: center;
+		justify-content: center;
+	}
+}
+@media (min-width: 992px){
+	.vertical-stretch-md{
+		height: 100%;
+		display: -webkit-flex;
+		display:         flex;
+		-webkit-align-items: center;
+		align-items: stretch;
+		-webkit-justify-content: center;
+		justify-content: center;
+	}
+}
+@media (min-width: 1200px;){
+	.vertical-stretch-lg{
+		height: 100%;
+		display: -webkit-flex;
+		display:         flex;
+		-webkit-align-items: center;
+		align-items: stretch;
+		-webkit-justify-content: center;
+		justify-content: center;
+	}
+}
+
+/* Vertical Stretch with Bootstrap Sizing End */
+
+
 .law-col{
 	background-color: rgb(240,240,240);
 	background: linear-gradient(to right, rgba(240,240,240,1) 0%,rgba(206,206,206,1) 50%,rgba(240,240,240,1) 100%);
