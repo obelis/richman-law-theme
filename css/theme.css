@@ -195,6 +195,8 @@ html, body {
 	.page-intro{
 		margin-top: 0px;
 		overflow: hidden;
+		position:relative;
+		padding-top: 160px;
 		height: calc((100vw / 16) * 9);
 	}	
 }
