@@ -29,7 +29,7 @@
 
 <div class="container">
   <!-- Three columns of text below the carousel -->
-  <div class="row vertical-stretch-sm">
+  <div class="row vertical-stretch-sm law-cols">
     <div class="col-md-4 text-center law-col">
       <h2>In The News</h2>
       <img class="img-circle" src="http://placehold.it/140x140">
