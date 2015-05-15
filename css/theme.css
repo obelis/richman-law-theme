@@ -331,6 +331,16 @@ html, body {
 
 /* Vertical Stretch with Bootstrap Sizing End */
 
+.vertical-bottom{
+	align-self: flex-end;
+}
+
+.law-cols{
+	border-top: 30px solid rgb(180,180,180);
+	border-bottom: 30px solid rgb(180,180,180);
+	border-left: 30px solid rgb(255,255,255);
+	border-right: 30px solid rgb(255,255,255);
+}
 
 .law-col{
 	background-color: rgb(240,240,240);
