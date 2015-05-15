@@ -195,15 +195,8 @@ html, body {
 	.page-intro{
 		margin-top: 0px;
 		overflow: hidden;
-		height: calc((100vw / 16) * 12);
-	}
-	.page-intro-info{
-		background-color: rgba(0,0,0,.8);
-		position: relative;
-		border-radius: 4px;
-		z-index: 1;
-	}
-		
+		height: calc((100vw / 16) * 9);
+	}	
 }
 
 @media (min-width: 769px){
