@@ -204,7 +204,7 @@ html, body {
 	}
 }
 .page-intro{
-	/*height: calc((100vw / 16) * 8);*/
+	height: 90vh;
 	overflow:hidden;
 	position: relative;
 	margin-bottom: 30px;
