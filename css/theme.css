@@ -374,9 +374,9 @@ html, body {
 .law-cols{
 	margin: -30px 0px -20px 0px;
 	padding: 30px 0px 20px 0px;
-	border-top: 30px solid black /*rgb(180,180,180)*/;
+	border-top: 30px solid #4d8bc2 /*rgb(180,180,180)*/;
 	border-right: 30px solid rgb(255,255,255);
-	border-bottom: 30px solid black /*rgb(180,180,180)*/;
+	border-bottom: 30px solid #4d8bc2 /*rgb(180,180,180)*/;
 	border-left: 30px solid rgb(255,255,255);
 }
 
@@ -384,9 +384,9 @@ html, body {
 	/*background-color: rgb(240,240,240);
 	background: linear-gradient(to right, rgba(240,240,240,1) 0%,rgba(206,206,206,1) 50%,rgba(240,240,240,1) 100%);*/
 	border-top: none;
-	border-right: 3px solid black;
+	border-right: 3px solid #4d8bc2;
 	border-bottom: 0px;
-	border-left: 3px solid black;
+	border-left: 3px solid #4d8bc2;
 	margin: -30px 15px -20px 15px;
 	padding: 30px 0px;
 	min-width: min-content;
