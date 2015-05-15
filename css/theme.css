@@ -335,7 +335,7 @@ html, body {
 	align-self: flex-end;
 }
 
-.law-cols::before{
+/*.law-cols::before{
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -361,9 +361,14 @@ html, body {
 	border-bottom: 30px solid rgb(180,180,180);
 	border-left: 30px solid rgb(255,255,255);
 	border-right: 30px solid rgb(255,255,255);
-}
+} */
 .law-cols{
+	margin: -60 0px;
 	padding: 30px 0px;
+	border-top: 30px solid rgb(180,180,180);
+	border-right: 30px solid rgb(255,255,255);
+	border-bottom: 30px solid rgb(180,180,180);
+	border-left: 30px solid rgb(255,255,255);
 }
 
 .law-col{
