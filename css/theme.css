@@ -383,7 +383,10 @@ html, body {
 .law-col{
 	/*background-color: rgb(240,240,240);
 	background: linear-gradient(to right, rgba(240,240,240,1) 0%,rgba(206,206,206,1) 50%,rgba(240,240,240,1) 100%);*/
-	border: 2px solid black;
+	border-top: none;
+	border-right: 3px solid black;
+	border-bottom: 0px;
+	border-left: 3px solid black;
 	margin: -30px 15px -20px 15px;
 	padding: 30px 0px;
 	min-width: min-content;
