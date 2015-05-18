@@ -22,7 +22,7 @@
 <div class="fluid-container page-intro">
     <img src="/wp-content/uploads/sites/12/2015/04/Queensboro-Bridge-over-New-Yor-web.jpg" alt="Queensboro Bridge leading to Upper East Side Manhattan New York City" />
     <div class="container page-intro-info">
-    	<h1 class="page-headline">Personal Injury Justice for New York City</h1>
+    	<h1 class="page-headline" data-scroll-speed="2">Personal Injury Justice for New York City</h1>
     </div>
 </div>
 
@@ -54,8 +54,7 @@
 
 <div class="container-fluid feature-divider parallax-window">
 	<div>
-    	<img src="<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-106-web.jpg" alt="New York City Supreme Court" style="width:100%;
-        height:auto;"/>
+    	<img src="<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-106-web.jpg" alt="New York City Supreme Court" style="width:100%; height:auto;"/>
     </div>
 </div>
 
