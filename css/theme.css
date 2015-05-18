@@ -440,6 +440,6 @@ html, body {
 /* Parallax End */
 
 /* General Styles */
-.container:not(.page-intro), .container:not(.header), .container:not(.footer) .container-fluid:not(.page-intro), .container-fluid:not(.header), .container-fluid:not(.footer){
+.container:not(.page-intro), .container:not(.header), .container:not(.footer), .container-fluid:not(.page-intro), .container-fluid:not(.header), .container-fluid:not(.footer){
 	background-color: #4d8bc2;
 }
