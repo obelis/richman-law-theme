@@ -1,7 +1,7 @@
 $(function(){
   var boxes = $('[data-scroll-speed]'),
       $window = $(window),
-	  $introHeight = $('.page-intro').outerHeight(true);
+	  introHeight = $('.page-intro').outerHeight(true);
   $window.on('scroll', function(){
     var scrollTop = $window.scrollTop();
     boxes.each(function(){
