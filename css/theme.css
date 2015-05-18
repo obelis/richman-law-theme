@@ -217,19 +217,20 @@ html, body {
 	z-index:-1;
 }
 .page-intro-info{
-	background-color: rgba(0,0,0,.8);
 	position: absolute;
 	bottom: 30px;
 	left: 0px;
 	right:0px;
 	margin: 0px auto;
-	border-radius: 4px;
 	z-index: 1;
 }
 .page-headline{
+	background-color: rgba(0,0,0,.8);
+	border-radius: 4px;
 	color: white;
 	text-shadow: 2px 2px 4px rgba(240,240,240,.5);
 	text-align:center;
+	padding:15px;
 }
 .page-tagline{
 	color: white;
