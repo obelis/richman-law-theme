@@ -144,9 +144,14 @@ html, body {
 	background-color: rgba(0,0,0,.8);
 }
 .navbar-toggle{
-	background-color: #356187;
+	background-color: #4d8bc2;
 	border:2px;
 }
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a{
+	background-color: #4d8bc2;
+}
+
 .navbar-toggle:hover, .navbar-toggle:focus{
 	background-color: transparent;
 }
