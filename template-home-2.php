@@ -52,9 +52,9 @@
 </div> <!--/.container -->
 </div>
 
-<div class="container-fluid feature-divider parallax-window">
+<div class="container-fluid feature-divider">
 	<div>
-    	<img src="<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-106-web.jpg" alt="New York City Supreme Court" style="width:100%; height:auto;"/>
+    	<!-- <img src="<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-106-web.jpg" alt="New York City Supreme Court" style="width:100%; height:auto;"/> -->
     </div>
 </div>
 
@@ -93,8 +93,8 @@
 	</div><!--/.row-->
 </div><!-- /.container -->
 
-<div class="container-fluid feature-divider parallax-window">
-<div style="background-image:url('<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-93-web.jpg'); background-size:cover; background-position:center center;">
+<div class="container-fluid feature-divider">
+<!--<div style="background-image:url('<?php bloginfo('template_url'); ?>/images/new-york-city-supreme-court-eric-richman-93-web.jpg'); background-size:cover; background-position:center center;"> -->
 </div>
 </div>
 
