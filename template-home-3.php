@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Home Page Update
+ * Template Name: Home Page Version 3
  * Description: Page without sidebar
  */
  ?>
