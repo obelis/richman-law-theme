@@ -377,11 +377,11 @@ html, body {
 
 .law-cols{
 	margin: 0px;
-	padding: 30px 0px 20px 0px;
+	/*padding: 30px 0px 20px 0px;
 	border-top: 30px solid rgb(180,180,180);
 	border-right: 30px solid rgba(255,255,255,0);
 	border-bottom: 30px solid rgb(180,180,180);
-	border-left: 30px solid rgba(255,255,255,0);
+	border-left: 30px solid rgba(255,255,255,0);*/
 }
 
 .law-col{
@@ -389,7 +389,7 @@ html, body {
 	background: rgb(218,227,234);
 	background: linear-gradient(to right, rgba(240,240,240,1) 0%,rgba(206,206,206,1) 50%,rgba(240,240,240,1) 100%);
 	background: linear-gradient(to right, rgba(218,227,234,1) 0%,rgba(255,255,255,1) 50%,rgba(218,227,234,1) 100%);
-	margin: -30px 15px -20px 15px;
+	/*margin: -30px 15px -20px 15px; */
 	padding: 30px 0px;
 	box-shadow: 0px 0px 10px 2px;
 }
