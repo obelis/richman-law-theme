@@ -210,13 +210,11 @@ html, body {
 	.page-intro{
 		height: 90vh;
 		overflow:hidden;
-		position: relative;
+		position: absolute;
+		top:0px;
 	}
 }
-.page-intro{
-	position:absolute;
-	top:0px;
-}
+
 .page-intro img{
 	position:fixed;
 	top: 0px;
