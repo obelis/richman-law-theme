@@ -30,19 +30,19 @@
 <div class="container">
   <!-- Three columns of text below the carousel -->
   <div class="row vertical-stretch-sm law-cols">
-    <div class="col-md-4 text-center law-col">
+    <div class="col-md-4 text-center law-col vertical-inner">
       <h2>In The News</h2>
       <img class="img-circle" src="http://placehold.it/140x140">
       <p>Eric Richman as been featured in countless news articles and stories.</p>
       <a class="btn btn-primary vertical-bottom" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a>
     </div>
-    <div class="col-md-4 text-center law-col">
+    <div class="col-md-4 text-center law-col vertical-inner">
       <h2>TV Appearances</h2>
       <img class="img-circle" src="http://placehold.it/140x140">
       <p>See Eric Richman in action interviewed on CNN.</p>
       <a class="btn btn-primary vertical-bottom" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a>
     </div>
-    <div class="col-md-4 text-center law-col">
+    <div class="col-md-4 text-center law-col vertical-inner">
       <h2>Success Stories</h2>
       <img class="img-circle" src="http://placehold.it/140x140">
       <p>Eric Richman works for you producing real results.</p>
