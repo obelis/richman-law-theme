@@ -19,7 +19,6 @@
 	<div class="container header">
     	<div class="row vertical-center-md">
         	<div class="col-lg-4 col-md-4 col-sm-3">
-	
 		<img src="data:image/png;base64," data-src="<?php bloginfo('template_url'); ?>/js/holder.js/400x100/text:LOGO" alt="First slide" class="img-responsive img-thumbnail logo" />
         	</div>
             <div class="col-lg-8 col-md-8 col-sm-9">

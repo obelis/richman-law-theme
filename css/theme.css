@@ -348,10 +348,18 @@ html, body {
 	}
 }
 
-.vertical-inside{
+.vertical-inner{
 	display: -webkit-flex;
 	display: flex;
-	
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-contnet: flex-start;
+	justify-content: flex-start;
+}
+
+.vertical-bottom{
+	-webkit-align-self: flex-end;
+	align-self: flex-end;
 }
 
 /* Vertical Stretch with Bootstrap Sizing End */
