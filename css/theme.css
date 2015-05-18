@@ -148,7 +148,7 @@ html, body {
 	border:2px;
 }
 
-.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a{
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.active>a{
 	background-color: #4d8bc2;
 }
 
