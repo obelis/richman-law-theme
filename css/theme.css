@@ -213,6 +213,10 @@ html, body {
 		position: relative;
 	}
 }
+.page-into{
+	position:absolute;
+	top:0px;
+}
 .page-intro img{
 	position:fixed;
 	top: 0px;
