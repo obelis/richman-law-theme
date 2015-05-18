@@ -8,42 +8,18 @@
 
           <div class="row">
 				<div class="col-md-4">
-				  <h3 class="footer_header">
-				        Recent Posts
-				    </h3>
-				    <div class="post">
-				        <a href="#">
-				            <img src="data:image/png;base64," data-src="<?php bloginfo('template_url'); ?>/js/holder.js/62x62/text:PIC" alt="" class="img-circle">
-				        </a>
-				        <div class="date">
-				            Wed, 12 Dec
-				        </div>
-				        <a href="blogpost.html" class="title">
-				            Randomised words which don't look embarrasing hidden.
-				        </a>
-				    </div>
-				    
-				    <div class="post">
-				        <a href="#">
-				            <img src="data:image/png;base64," data-src="<?php bloginfo('template_url'); ?>/js/holder.js/62x62/text:PIC" alt="" class="img-circle">				        </a>
-				        <div class="date">
-				            Mon, 12 Dec
-				        </div>
-				        <a href="blogpost.html" class="title">
-				            Randomised words which don't look embarrasing hidden.
-				        </a>
-				    </div>
-				    
-				    <div class="post">
-				        <a href="#">
-				            <img src="data:image/png;base64," data-src="<?php bloginfo('template_url'); ?>/js/holder.js/62x62/text:PIC" alt="" class="img-circle">				        </a>
-				        <div class="date">
-				            Mon, 12 Dec
-				        </div>
-				        <a href="blogpost.html" class="title">
-				            Randomised words which don't look embarrasing hidden.
-				        </a>
-				    </div>
+				  <h3 class="footer_header">Address</h3>
+                  <div itemscope itemtype="http://schema.org/LocalBusiness"> 
+                    <h1><span itemprop="name">Law Offices of Eric Richman</span></h1>
+                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <p>
+                            <span itemprop="streetAddress">188 East 64th Street</span><br>
+                            <span itemprop="addressLocality">New York</span>,
+                            <span itemprop="addressRegion">NY</span> 10065
+                        </p>
+                    </div>
+                    <h2>Phone:<a href="tel:+12126883965"><span itemprop="telephone">212.688.3965</span></a></h2>
+                </div>
 				</div>
 				
 								
