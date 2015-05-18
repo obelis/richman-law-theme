@@ -348,6 +348,12 @@ html, body {
 	}
 }
 
+.vertical-inside{
+	display: -webkit-flex;
+	display: flex;
+	
+}
+
 /* Vertical Stretch with Bootstrap Sizing End */
 
 .vertical-bottom{
