@@ -1,5 +1,5 @@
-jQuery(document).ready(heightFix);
-jQuery(window).resize(heightFix);
+jQuery(document).on('ready', heightFix);
+jQuery(window).on('resize', heightFixAgain);
 function heightFix(){
     // Get Height Fix Containers
     var heightFixContainer = jQuery('.height-fix');
@@ -27,8 +27,26 @@ function heightFix(){
         // Get First Key in maxHeight Array and convert to string for CSS
         for (ib = 0; ib < heightFixItems.length; ib++){
             heightFixItems[ib].style.height = itemHeights[0] + "px";
-			jQuery('.height-fix-bottom',heightFixItems[ib]).css("position", "absolute");
-			jQuery('.height-fix-bottom',heightFixItems[ib]).css("bottom", "0px");
+			if (jQuery('.height-fix-bottom',heightFixItems[ib])){
+				jQuery('.height-fix-bottom',heightFixItems[ib]).css("position", "absolute");
+				jQuery('.height-fix-bottom',heightFixItems[ib]).css("bottom", "0px");
+			}
         }
     }
+}
+
+function defaultHeights(){
+	// Finds all Height Fix Items for all Containers
+	var itemHeights = jQuery('.height-fix-item');
+	for(i = 0; i < itemHeights.length; i++){
+		// Resets Heights to Initial Values
+		itemHeights[i].style.height = "initial";
+	}
+}
+
+function heightFixAgain(){
+	// Clears the Height Fix
+	defaultHeights();
+	// Reruns the Height Fix to recaluclate new heights
+	heightFix();
 }
