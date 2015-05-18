@@ -27,7 +27,8 @@
     </div>
 </div>
 
-<div class="container law-container">
+<div class="law-container">
+<div class="container">
   <!-- Three columns of text below the carousel -->
   <div class="row vertical-stretch-sm law-cols">
     <div class="col-md-4 text-center law-col">
@@ -50,6 +51,7 @@
     </div>
   </div><!-- /.row -->
 </div> <!--/.container -->
+</div>
 
 <div class="container-fluid feature-divider parallax-window">
 	<div class="parallax-scroll">
