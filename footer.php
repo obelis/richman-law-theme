@@ -9,20 +9,21 @@
           <div class="row">
 				<div class="col-md-4">
 				  <h3 class="footer_header">Address</h3>
-                  <div itemscope itemtype="http://schema.org/LocalBusiness"> 
-                    <h1><span itemprop="name">Law Offices of Eric Richman</span></h1>
-                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                        <p>
+                  <div itemscope itemtype="http://schema.org/Attorney"> 
+                  	<p>
+                   		<span itemprop="name">Law Offices of Eric Richman</span><br />
+                        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                             <span itemprop="streetAddress">188 East 64th Street</span><br>
                             <span itemprop="addressLocality">New York</span>,
                             <span itemprop="addressRegion">NY</span> 10065
-                        </p>
-                    </div>
-                    <h2>Phone:<a href="tel:+12126883965"><span itemprop="telephone">212.688.3965</span></a></h2>
+                        </div>
+                    </p>
+                    <h3 class="footer_header">Phone:<a href="tel:+12126883965"><span itemprop="telephone">212.688.3965</span></a></h3>
+                    <h3 class="footer_header">Fax: <span itemprop="faxNumber">212.688.0007</span></h3>
+                     <h3 class="footer_header">Hours</h3>
+                     <p><meta itemprop="openingHours" content="Mo-Fri 8:00-19:00">Monday through Friday<br />8:00am to 7:00pm</p>
                 </div>
-				</div>
-				
-								
+				</div>			
 				<div class="col-md-4">
 				<h3 class="footer_header">
 				       Map
