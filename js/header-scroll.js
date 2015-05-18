@@ -1,7 +1,7 @@
 jQuery(window).on('scroll', function(){
 	var scrollPosition = jQuery('.header').offset();
 	var scrolledActive = jQuery('.page-intro').outerHeight(true);
-	if (scrollPosition.top > acrolledActive){
+	if (scrollPosition.top > scrolledActive){
 		jQuery('.header').addClass('scrolled');
 		if (jQuery('.header').has('container')){
 			jQuery('.header').addClass('container-fluid');
