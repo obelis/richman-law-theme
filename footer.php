@@ -18,7 +18,7 @@
                             <span itemprop="addressRegion">NY</span> 10065
                         </div>
                     </p>
-                    <h3 class="footer_header">Phone:<a href="tel:+12126883965"><span itemprop="telephone">212.688.3965</span></a></h3>
+                    <h3 class="footer_header">Phone: <a href="tel:+12126883965"><span itemprop="telephone">212.688.3965</span></a></h3>
                     <h3 class="footer_header">Fax: <span itemprop="faxNumber">212.688.0007</span></h3>
                      <h3 class="footer_header">Hours</h3>
                      <p><meta itemprop="openingHours" content="Mo-Fri 8:00-19:00">Monday through Friday<br />8:00am to 7:00pm</p>
