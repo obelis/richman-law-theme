@@ -95,6 +95,7 @@
     <script src="<?php bloginfo('template_url'); ?>/js/holder.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/height-fix.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/scroll-speed.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/header-scroll.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/parallax.js"></script>
 
 	<?php wp_footer(); ?>

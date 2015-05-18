@@ -136,7 +136,12 @@ html, body {
 	left:0px;
 	right:0px;
 	margin:inherit auto;
-	
+}
+@media (min-width: 769px){
+	.header .scrolled{
+		width: 100%;
+		background-color: rgba(0,0,0,.8);
+	}
 }
 .navbar{
 	margin:0px;
