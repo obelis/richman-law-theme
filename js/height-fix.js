@@ -1,5 +1,5 @@
 jQuery(document).ready(heightFix);
-jQuery(window).on('resize', heightFix);
+jQuery(window).resize(heightFix);
 function heightFix(){
     // Get Height Fix Containers
     var heightFixContainer = jQuery('.height-fix');
