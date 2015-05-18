@@ -146,7 +146,7 @@ html, body {
 	.header.scrolled .navbar{
 		background-color: transparent;
 	}
-	.header.scrolled .logo{
+	.header.scrolled img.logo{
 		height: 50px;
 		margin: 5px 0px;
 }
