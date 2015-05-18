@@ -214,7 +214,7 @@ html, body {
 	}
 }
 .page-intro img{
-	position:absolute;
+	position:fixed;
 	top: 0px;
 	right: -5%;
 	width: auto;
