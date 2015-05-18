@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container law-container">
   <!-- Three columns of text below the carousel -->
   <div class="row vertical-stretch-sm law-cols">
     <div class="col-md-4 text-center law-col">

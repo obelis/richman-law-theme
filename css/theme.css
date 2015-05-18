@@ -370,6 +370,11 @@ html, body {
 	border-right: 30px solid rgb(255,255,255);
 } */
 
+.law-container{
+	box-shadow: 0px 0px 10px;
+	background-color: #4d8bc2;
+}
+
 .law-cols{
 	margin: 0px;
 	padding: 30px 0px 20px 0px;
