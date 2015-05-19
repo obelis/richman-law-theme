@@ -258,7 +258,6 @@ html, body {
 /* Feature Boxes */
 .feature-box{
 	overflow: hidden;
-	padding-top:100%;
 }
 .feature-box h2{
 	position: relative;
