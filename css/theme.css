@@ -138,6 +138,10 @@ html, body {
 	margin:inherit auto;
 	transition: all .25s ease;
 }
+.header img.logo{
+	height:100px;
+	width:100%;
+}
 @media (min-width: 769px){
 	.header.scrolled{
 		width: 100%;
