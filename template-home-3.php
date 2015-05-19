@@ -141,4 +141,5 @@
 	</div><!-- /.jumbotron -->
 </div><!-- /.container -->
 <img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
+<img src="/wp-content/uploads/sites/12/2015/04/Queensboro-Bridge-over-New-Yor-web.jpg" />
 <?php get_footer(); ?>
