@@ -33,11 +33,10 @@
             <h2>In The News</h2>
               <img class="img-circle" src="http://placehold.it/140x140">
               <p>Eric Richman as been featured in countless news articles and stories.</p>
-              <img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
               <a class="btn btn-primary vertical-bottom" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img scr="/wp-content/uploads/sites/12/2015/04/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
+            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
             </div>
         </div>
         <div class="col-md-4">
@@ -48,7 +47,7 @@
               <a class="btn btn-primary vertical-bottom" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-tv-appearances.jpg" width="400" height="400" />
+            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-tv-appearances.jpg" width="400" height="400" />
             </div>
         </div>
         <div class="col-md-4">
@@ -59,7 +58,7 @@
               <a class="btn btn-primary vertical-bottom" href="#">Read the Results <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
+            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
             </div>
         </div>
     </div>
@@ -71,7 +70,7 @@
                 <a class="btn btn-large btn-primary vertical-bottom" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-practice-information.jpg" width="400" height="400" />
+            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-practice-information.jpg" width="400" height="400" />
             </div>
         </div>
         <div class="col-md-4">
@@ -81,7 +80,7 @@
                 <a class="btn btn-large btn-primary vertical-bottom" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-about.jpg" width="400" height="400" />
+            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-about.jpg" width="400" height="400" />
             </div>
         </div>
         <div class="col-md-4">
@@ -100,7 +99,7 @@
                 <a class="btn btn-large btn-primary vertical-bottom" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-practice-areas.jpg" width="400" height="400" />
+            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-practice-areas.jpg" width="400" height="400" />
             </div>
         </div>
 	</div><!--/.row-->
@@ -140,6 +139,4 @@
     	</div><!-- /.row -->
 	</div><!-- /.jumbotron -->
 </div><!-- /.container -->
-<img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
-<img src="/wp-content/uploads/sites/12/2015/04/Queensboro-Bridge-over-New-Yor-web.jpg" />
 <?php get_footer(); ?>
