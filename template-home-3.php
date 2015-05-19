@@ -33,6 +33,7 @@
             <h2>In The News</h2>
               <img class="img-circle" src="http://placehold.it/140x140">
               <p>Eric Richman as been featured in countless news articles and stories.</p>
+              <img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
               <a class="btn btn-primary vertical-bottom" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
