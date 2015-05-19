@@ -18,7 +18,7 @@ jQuery(window).on('scroll', function(){
 			jQuery('.header').removeClass('container-fluid');
 		}
 		if (jQuery('.header-inner-container').has('container')){
-			jQuery('.header').removeClass('container');
+			jQuery('.header-inner-container').removeClass('container');
 		}
 	}
 });
