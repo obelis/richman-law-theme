@@ -1,5 +1,8 @@
 jQuery(document).on('ready', heightFix);
+jQuery(document).on('ready', squareUp);
 jQuery(window).on('resize', heightFixAgain);
+jQuery(window).on('resize', squareUp);
+
 function heightFix(){
     // Get Height Fix Containers
     var heightFixContainer = jQuery('.height-fix');
@@ -49,4 +52,13 @@ function heightFixAgain(){
 	defaultHeights();
 	// Reruns the Height Fix to recaluclate new heights
 	heightFix();
+}
+
+function squareUp(){
+	var makeSquare = jQuery('.aspect-square');
+	makeSquare.each(function(index, element) {
+        var getWidth = this.width();
+		var makeHeight = getWidth;
+		this.height(makeHeight);
+    });
 }

@@ -28,7 +28,7 @@
 
 <div class="container">
 	<div class="row">
-    	<div class="col-md-4 feature-box">
+    	<div class="col-md-4 feature-box aspect-square">
         	<div class="feature-box-content well vertical-inner">
             <h2>In The News</h2>
               <p>Eric Richman has been featured in countless news articles and stories.</p>
@@ -38,7 +38,7 @@
             	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" alt="Attorney In The News"/>
             </div>
         </div>
-        <div class="col-md-4 feature-box">
+        <div class="col-md-4 feature-box aspect-square">
         	<div class="feature-box-content well vertical-inner">
             <h2>TV Appearances</h2>
               <p>See Eric Richman in action interviewed on CNN.</p>
@@ -48,7 +48,7 @@
             	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-tv-appearances.jpg" width="400" height="400" />
             </div>
         </div>
-        <div class="col-md-4 feature-box">
+        <div class="col-md-4 feature-box aspect-square">
         	<div class="feature-box-content well vertical-inner">
             <h2>Success Stories</h2>
               <p>Eric Richman works for you producing real results.</p>
