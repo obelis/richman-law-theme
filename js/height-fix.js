@@ -56,7 +56,7 @@ function heightFixAgain(){
 
 function squareUp(){
 	var makeSquare = jQuery('.aspect-square');
-	makeSquare.each(function(index, element) {
+	makeSquare.each(function() {
         var getWidth = this.width();
 		var makeHeight = getWidth;
 		this.height(makeHeight);
