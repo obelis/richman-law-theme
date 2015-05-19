@@ -256,6 +256,9 @@ html, body {
 /* Page Big Intro Styles End */
 
 /* Feature Boxes */
+.feature-box{
+	overflow: hidden;
+}
 .feature-box-image{
 	position:absolute;
 	top: 0px;
