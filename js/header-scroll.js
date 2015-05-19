@@ -1,8 +1,8 @@
 jQuery(window).on('scroll', function(){
 	var scrollPosition = jQuery('.header').offset();
-	var headerHeight = jQuery('.header').outerHeight(true);
+	/*var headerHeight = jQuery('.header').outerHeight(true);*/
 	var introHeight = jQuery('.page-intro').outerHeight(true);
-	var scrolledActive = introHeight - headerHeight;
+	var scrolledActive = introHeight;
 	if (scrollPosition.top > scrolledActive){
 		jQuery('.header').addClass('scrolled');
 		if (jQuery('.header').has('container')){
