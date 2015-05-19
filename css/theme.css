@@ -259,7 +259,7 @@ html, body {
 .feature-box{
 	overflow: hidden;
 }
-.feature-box-image{
+.feature-box-image img{
 	position:absolute;
 	top: 0px;
 	left: 0px;
