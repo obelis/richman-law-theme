@@ -217,6 +217,10 @@ html, body {
 	}
 }
 
+.page-intro.inner-page{
+	height: 50vh;
+}
+
 .page-intro img{
 	position:fixed;
 	top: 0px;
