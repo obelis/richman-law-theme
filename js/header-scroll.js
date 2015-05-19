@@ -8,6 +8,7 @@ jQuery(window).on('scroll', function(){
 			jQuery('.header').addClass('container-fluid');
 			jQuery('.header').removeClass('container');
 		}
+		jQuery('.header-inner-container').addClass('container');
 	} else {
 		if (jQuery('.header').has('scrolled')){
 			jQuery('.header').removeClass('scrolled');
@@ -15,6 +16,9 @@ jQuery(window).on('scroll', function(){
 		if (jQuery('.header').has('container-fluid')){
 			jQuery('.header').addClass('container');
 			jQuery('.header').removeClass('container-fluid');
+		}
+		if (jQuery('.header-inner-container').has('container')){
+			jQuery('.header').removeClass('container');
 		}
 	}
 });
