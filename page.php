@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="page-intro">
+<div class="page-intro inner-page">
 </div>
 <div class="container">
 	<div class="row">
