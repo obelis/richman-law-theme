@@ -37,7 +37,7 @@
               <a class="btn btn-primary vertical-bottom" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
+            	<img scr="/wp-content/uploads/sites/12/2015/04/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
             </div>
         </div>
         <div class="col-md-4">
