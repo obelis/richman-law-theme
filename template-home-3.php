@@ -28,8 +28,8 @@
 
 <div class="container">
 	<div class="row height-fix">
-    	<div class="col-md-4">
-        	<div class="well height-fix-item vertical-inner">
+    	<div class="col-md-4 well height-fix-item vertical-inner">
+        	<div class="feature-box-content">
             <h2>In The News</h2>
               <img class="img-circle" src="http://placehold.it/140x140">
               <p>Eric Richman as been featured in countless news articles and stories.</p>
@@ -39,8 +39,8 @@
             	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" alt="Attorney In The News"/>
             </div>
         </div>
-        <div class="col-md-4">
-        	<div class="well height-fix-item vertical-inner">
+        <div class="col-md-4 well height-fix-item vertical-inner">
+        	<div class="feature-box-content">
             <h2>TV Appearances</h2>
               <img class="img-circle" src="http://placehold.it/140x140">
               <p>See Eric Richman in action interviewed on CNN.</p>
@@ -50,8 +50,8 @@
             	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-tv-appearances.jpg" width="400" height="400" />
             </div>
         </div>
-        <div class="col-md-4">
-        	<div class="well height-fix-item vertical-inner">
+        <div class="col-md-4 well height-fix-item vertical-inner">
+        	<div class="feature-box-content">
             <h2>Success Stories</h2>
               <img class="img-circle" src="http://placehold.it/140x140">
               <p>Eric Richman works for you producing real results.</p>
