@@ -153,7 +153,9 @@ html, body {
 	}
 	.header.scrolled img.logo{
 		height: 50px;
-		margin: 5px 0px;
+		margin: 0px;
+		padding:3px;
+		box-sizing:border-box;
 }
 .navbar{
 	margin:0px;
