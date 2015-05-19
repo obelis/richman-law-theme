@@ -58,7 +58,7 @@
               <a class="btn btn-primary vertical-bottom" href="#">Read the Results <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
+            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-success-stories.jpg" width="400" height="400" />
             </div>
         </div>
     </div>
