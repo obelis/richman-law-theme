@@ -140,4 +140,5 @@
     	</div><!-- /.row -->
 	</div><!-- /.jumbotron -->
 </div><!-- /.container -->
+<img scr="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" />
 <?php get_footer(); ?>
