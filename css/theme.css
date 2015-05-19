@@ -219,6 +219,10 @@ html, body {
 
 .page-intro.inner-page{
 	height: 50vh;
+	background: url('/images/eric-richman-about-us-page.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
 }
 
 .page-intro img{
