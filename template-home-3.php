@@ -97,6 +97,7 @@
 <div class="feature-divider"></div>
 </div>
 <div class="container reviews">
+	<div class="jumbotron">
         <div class="row">
             <div class="col-md-4">
                 <div class="well">
@@ -122,5 +123,6 @@
                 <a class="btn btn-large btn-primary" href="https://plus.google.com/104401465280386732812/" target="_blank">Read More Reviews</a>
             </div>
     	</div><!-- /.row -->
+	</div><!-- /.jumbotron -->
 </div><!-- /.container -->
 <?php get_footer(); ?>
