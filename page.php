@@ -16,7 +16,7 @@ if ( has_post_thumbnail() ) {
 	<h1 class="page-headline"><?php the_title(); ?></h1>
 </div>
 
-</div>
+
 <div class="container">
 
 	<div class="row">
@@ -41,5 +41,7 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');
 
        </div>
    </div>
+</div>
+
 </div>
 <?php get_footer(); ?>
