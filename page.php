@@ -9,7 +9,7 @@ if ( has_post_thumbnail() ) {
 ?>
 
 
-<div class="page-intro inner-page" style="background-image: url(<?=$large_image_url;?>);background-size: cover;">
+<div class="page-intro inner-page" style="background-image: url(<?=$large_image_url[0];?>);background-size: cover;">
 
 
 <div class="container page-intro-info">
