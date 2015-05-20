@@ -31,7 +31,7 @@
 					<div class="textwidget">
 					--map_start<br />
 					<?php echo do_shortcode('[map]'); ?>
-					<br />--map_end<br />
+					<br /> --map_end<br />
 
 	<div class="col-md-4">
 				<h3 class="footer_header">
