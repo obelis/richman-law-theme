@@ -285,6 +285,8 @@ html, body {
 	color: white;
 	text-shadow: 0px 0px 10px #000;
 	margin-top: 0px;
+	font-size: 32px;
+	font-weight: bold;
 }
 .feature-box p{
 	position: relative;
@@ -309,6 +311,7 @@ html, body {
 	z-index: 15;
 	opacity: 1;
 	border-radius: 4px;
+	border: 10px solid white;
 	transition-property: z-index, opacity;
 	transition-duration: .5s;
 	transition-timing-function: ease;
