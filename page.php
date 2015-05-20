@@ -8,16 +8,15 @@ if ( has_post_thumbnail() ) {
 }
 ?>
 
-<div style="background-image: url(<?=$large_image_url[0];?>);background-size: cover;">
-<div class="page-intro inner-page">
-</div>
+
+<div class="page-intro inner-page" style="background-image: url(<?=$large_image_url[0];?>);background-size: cover;">
 
 
 <div class="container page-intro-info">
 	<h1 class="page-headline"><?php the_title(); ?></h1>
 </div>
 
-
+</div>
 <div class="container">
 
 	<div class="row">
@@ -42,7 +41,5 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');
 
        </div>
    </div>
-</div>
-
 </div>
 <?php get_footer(); ?>
