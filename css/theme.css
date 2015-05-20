@@ -276,6 +276,12 @@ html, body {
 	text-shadow: 0px 0px 10px #000;
 	margin-top: 0px;
 }
+.feature-box p{
+	position: relative;
+	text-align: center;
+	font-size:18px;
+	z-index: 10;
+}
 .feature-box .btn{
 	position:relative;
 	z-index:10;
