@@ -31,8 +31,7 @@
 					<div class="textwidget">
 					<?php echo do_shortcode('[map]'); ?>
 					
-					<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Novins,+York+%26+Jacobus&amp;hl=en&amp;sll=39.95354,-74.198179&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;view=map&amp;cid=13854305820662554184&amp;hq=Novins,+York+%26+Jacobus&amp;hnear=&amp;source=embed&amp;t=m&amp;ll=39.953093,-74.200909&amp;spn=0.004935,0.006437&amp;z=16&amp;output=embed"></iframe><br><small><a href="https://maps.google.com/maps?q=Novins,+York+%26+Jacobus&amp;hl=en&amp;sll=39.95354,-74.198179&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;view=map&amp;cid=13854305820662554184&amp;hq=Novins,+York+%26+Jacobus&amp;hnear=&amp;source=embed&amp;t=m&amp;ll=39.953093,-74.200909&amp;spn=0.004935,0.006437&amp;z=16" style="color:#0000FF;text-align:left">View Larger Map</a></small></div>
-				</div>
+
 	<div class="col-md-4">
 				<h3 class="footer_header">
                         Contact
