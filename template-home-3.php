@@ -27,7 +27,7 @@
 </div>
 
 <div class="container">
-	<div class="row">
+	<div class="row vertical-stretch-xs">
     	<div class="col-md-4 feature-box aspect-square">
         	<div class="feature-box-content well vertical-inner">
             <h2>In The News</h2>
