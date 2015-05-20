@@ -431,25 +431,29 @@ html, body {
 }
 
 .horizontal-left{
-	align-content: flex-start;
+	align-items: flex-start;
 }
 
 .horizontal-center{
-	align-content: center;
+	align-items: center;
 }
 
 .horizontal-right{
-	align-content: flex-end;
+	align-items: flex-end;
 }
 
 .horizontal-push-left{
 	align-self: flex-start;
+	margin-right:auto;
 }
 .horizontal-push-center{
 	align-self: center;
+	margin-left:auto;
+	margin-right:auto;
 }
 .horizontal-push-right{
 	align-self: flex-end;
+	margin-left:auto;
 }
 
 /* Vertical Stretch with Bootstrap Sizing End */
