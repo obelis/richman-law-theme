@@ -7,7 +7,7 @@
 yoast_breadcrumb('<p id="breadcrumbs">','</p>');
 } ?>
 	<div class="row">
-    	<div class="col-md-8">
+    	<div class="col-md-8 col-md-offset-2">
         
 
 <?php if (have_posts ()) : ?>
