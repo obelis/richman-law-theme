@@ -423,6 +423,28 @@ html, body {
 	margin-top: auto;
 }
 
+.horizontal-left{
+	align-content: flex-start;
+}
+
+.horizontal-center{
+	align-content: center;
+}
+
+.horizontal-right{
+	align-content: flex-end;
+}
+
+.horizontal-push-left{
+	align-self: flex-start;
+}
+.horizontal-push-center{
+	align-self: center;
+}
+.horizontal-push-right{
+	align-self: flex-end;
+}
+
 /* Vertical Stretch with Bootstrap Sizing End */
 
 .vertical-bottom{
