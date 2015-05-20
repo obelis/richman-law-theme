@@ -267,6 +267,7 @@ html, body {
 	text-align: center;
 	color: white;
 	text-shadow: 0px 0px 10px #000;
+	margin-top: 0px;
 }
 .feature-box:hover .feature-box-image{
 	opacity: .2;
