@@ -592,9 +592,9 @@ global $post;
 
 if ( is_page() && $post->post_parent ) 
 
-	$childpages = 'parent'.$post->ID.wp_list_pages( 'sort_column=menu_order&title_li=&depth=1&child_of=' . $post->ID . '&echo=0' );
+	$childpages = wp_list_pages( 'sort_column=menu_order&title_li=&depth=1&child_of=' . $post->ID . '&echo=0' );
 else
-	$childpages = 'ID'.wp_list_pages( 'sort_column=menu_order&title_li=&depth=1&child_of=' . $post->ID . '&echo=0' );
+	$childpages = wp_list_pages( 'sort_column=menu_order&title_li=&depth=1&child_of=' . $post->ID . '&echo=0' );
 
 if ( $childpages ) {
 
