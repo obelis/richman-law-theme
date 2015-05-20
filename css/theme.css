@@ -143,8 +143,8 @@ html, body {
 	right:0px;
 	margin:inherit auto;
 	transition-property:height, background-color;
-	transition-timing-function: ease;
-	transition-duration: .25s;
+	transition-timing-function: ease-in-out;
+	transition-duration: .5s;
 }
 .header img.logo{
 	height:100px;
@@ -299,7 +299,7 @@ html, body {
 	z-index: 15;
 	opacity: 1;
 	transition-property: z-index, opacity;
-	transition-duration: .25s;
+	transition-duration: .5s;
 	transition-timing-function: ease;
 }
 .feature-box-image img{
