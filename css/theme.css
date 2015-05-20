@@ -296,7 +296,7 @@ html, body {
 .feature-box-image{
 	position: absolute;
 	top: 0px;
-	width: 100%;
+	width: calc(100% - 30px);
 	height: 100%;
 	overflow: hidden;
 	z-index: 15;
