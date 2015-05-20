@@ -136,6 +136,7 @@ html, body {
 	left:0px;
 	right:0px;
 	margin:inherit auto;
+	-webkit-transition: all .25s ease;
 	transition: all .25s ease;
 }
 .header img.logo{
@@ -386,7 +387,7 @@ html, body {
 	}
 }
 
-.vertical-inner{
+.vertical-top{
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-direction: column;
@@ -397,7 +398,25 @@ html, body {
 	align-content: space-around;
 }
 
+.vertical-justify{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-contnet: space-between;
+	justify-content: space-between;
+}
+
 .vertical-bottom{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-contnet: flex-end;
+	justify-content: flex-end;
+}
+
+.vertical-push-bottom{
 	-webkit-align-self: flex-end;
 	align-self: flex-end;
 	margin-top: auto;

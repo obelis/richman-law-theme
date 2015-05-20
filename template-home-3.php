@@ -27,9 +27,9 @@
 </div>
 
 <div class="container">
-	<div class="row vertical-stretch-xs">
+	<div class="row">
     	<div class="col-md-4 feature-box aspect-square">
-        	<div class="feature-box-content well vertical-inner">
+        	<div class="feature-box-content well vertical-stretch-xs vertical-justify">
             <h2>In The News</h2>
               <p>Eric Richman has been featured in countless news articles and stories.</p>
               <a class="btn btn-primary vertical-bottom" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="col-md-4 feature-box aspect-square">
-        	<div class="feature-box-content well vertical-inner">
+        	<div class="feature-box-content well vertical-stretch-xs vertical-justify">
             <h2>TV Appearances</h2>
               <p>See Eric Richman in action interviewed on CNN.</p>
               <a class="btn btn-primary vertical-bottom" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="col-md-4 feature-box aspect-square">
-        	<div class="feature-box-content well vertical-inner">
+        	<div class="feature-box-content well vertical-stretch-xs vertical-justify">
             <h2>Success Stories</h2>
               <p>Eric Richman works for you producing real results.</p>
               <a class="btn btn-primary vertical-bottom" href="#">Read the Results <span class="glyphicon glyphicon-arrow-right"></span></a>
