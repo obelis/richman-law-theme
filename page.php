@@ -8,6 +8,9 @@ if ( has_post_thumbnail() ) {
 	echo '</a>';
 }
 ?>
+<div class="container page-intro-info">
+	<h1 class="page-headline"><?php the_title(); ?></h1>
+</div>
 </div>
 <div class="container">
 
