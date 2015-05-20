@@ -171,6 +171,7 @@ html, body {
 		margin: 0px;
 		padding:3px;
 		box-sizing:border-box;
+		background-color: none;
 }
 .navbar{
 	margin:0px;
