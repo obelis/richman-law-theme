@@ -223,7 +223,7 @@ html, body {
 
 @media (min-width: 769px){
 	.page-intro{
-		height: 90vh;
+		height: 60vh;
 		overflow:hidden;
 		position: relative;
 	}
@@ -247,19 +247,19 @@ html, body {
 }
 .page-intro-info{
 	position: absolute;
-	bottom: 30px;
+	top: 50%;
 	left: 0px;
 	right:0px;
 	margin: 0px auto;
 	z-index: 1;
 }
 .page-headline{
-	background-color: rgba(0,0,0,.8);
-	border-radius: 4px;
-	color: white;
-	text-shadow: 2px 2px 4px rgba(240,240,240,.5);
-	text-align:center;
-	padding:15px;
+	color: #4d8bc2;
+	text-shadow: 2px 2px 1px #000, 0px 0px 20px #fff;
+	text-align: center;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 42px;
 }
 .page-tagline{
 	color: white;
