@@ -285,7 +285,7 @@ function optionscheck_display_sidebar() { ?>
 }
  
 function optionsframework_custom_css () {
-	wp_register_style( 'optionsframework_custom_css', get_stylesheet_directory_uri() .'/assets/css/options-custom.css' );
+	wp_register_style( 'optionsframework_custom_css', get_stylesheet_directory_uri() .'/css/options-custom.css' );
 	wp_enqueue_style( 'optionsframework_custom_css' );
 }
 
