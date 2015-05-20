@@ -2,6 +2,10 @@ ul ul, ol ul, ul ol, ol ol {
 margin: 0 0 10px 25px;
 }
 
+.well, .jumbotron{
+	box-shadow: 0px 0px 5px #000;
+}
+
 /* FULL WIDTH CAROUSEL
 -------------------------------------------------- */
 
@@ -267,7 +271,6 @@ html, body {
 .feature-box{
 	overflow: hidden;
 	margin-bottom:0px;
-	box-shadow: 0px 0px 5px #000;
 }
 .feature-box h2{
 	position: relative;
@@ -315,7 +318,6 @@ html, body {
 
 .info-box{
 	margin-bottom:0px;
-	box-shadow: 0px 0px 5px #000;
 }
 .info-box h2{
 	text-align:center;
