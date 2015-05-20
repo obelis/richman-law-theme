@@ -296,6 +296,16 @@ html, body {
 	z-index:-1;
 }
 
+.info-box h2{
+	text-align:center;
+}
+.info-box p{
+	text-align:justify;
+}
+.info-box .btn{
+	align-self:stretch;
+}
+
 /* Vertical Align with Bootstrap Sizing */
 .vertical-center-xs{
 	height: 100%;
