@@ -136,8 +136,9 @@ html, body {
 	left:0px;
 	right:0px;
 	margin:inherit auto;
-	-webkit-transition: height .25s ease;
-	transition: height .25s ease;
+	transition-property:height, background-color;
+	transition-timing-function: ease;
+	transition-duration: .25s;
 }
 .header img.logo{
 	height:100px;
