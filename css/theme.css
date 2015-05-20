@@ -593,3 +593,7 @@ html, body {
 	box-shadow:inset 0px 0px 5px 5px #000;
 }
 /* Parallax End */
+
+.inner-page-content{
+	background-color: rgba(255,255,255,.9);
+}

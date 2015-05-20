@@ -20,7 +20,7 @@ if ( has_post_thumbnail() ) {
 <div class="container">
 
 	<div class="row">
-    	<div class="col-md-8 col-md-offset-2">
+    	<div class="col-md-8 col-md-offset-2 inner-page-content">
         
 <?php if ( function_exists('yoast_breadcrumb') ) {
 yoast_breadcrumb('<p id="breadcrumbs">','</p>');
