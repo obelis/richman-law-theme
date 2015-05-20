@@ -3,13 +3,13 @@
 
 </div>
 <div class="container">
-<?php if ( function_exists('yoast_breadcrumb') ) {
-yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-} ?>
+
 	<div class="row">
     	<div class="col-md-8 col-md-offset-2">
         
-
+<?php if ( function_exists('yoast_breadcrumb') ) {
+yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+} ?>
 <?php if (have_posts ()) : ?>
 <?php while (have_posts ()) : the_post(); ?>
 	
