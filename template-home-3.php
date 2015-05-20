@@ -32,7 +32,7 @@
         	<div class="feature-box-content well vertical-stretch-xs vertical-justify">
             <h2>In The News</h2>
               <p>Eric Richman has been featured in countless news articles and stories.</p>
-              <a class="btn btn-primary vertical-bottom horizontal-center" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a>
+              <a class="btn btn-primary horizontal-center" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
             	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" alt="Attorney In The News"/>
@@ -42,7 +42,7 @@
         	<div class="feature-box-content well vertical-stretch-xs vertical-justify">
             <h2>TV Appearances</h2>
               <p>See Eric Richman in action interviewed on CNN.</p>
-              <a class="btn btn-primary vertical-bottom horizontal-center" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a>
+              <a class="btn btn-primary horizontal-center" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
             	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-tv-appearances.jpg" width="400" height="400" />
@@ -52,7 +52,7 @@
         	<div class="feature-box-content well vertical-stretch-xs vertical-justify">
             <h2>Success Stories</h2>
               <p>Eric Richman works for you producing real results.</p>
-              <a class="btn btn-primary vertical-bottom horizontal-center" href="#">Read the Results <span class="glyphicon glyphicon-arrow-right"></span></a>
+              <a class="btn btn-primary horizontal-center" href="#">Read the Results <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
             	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-success-stories.jpg" width="400" height="400" />
