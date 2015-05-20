@@ -31,7 +31,7 @@ $(function(){
     boxes.each(function(){
       var $this = $(this),
           scrollspeed = parseInt($this.data('scroll-speed')),
-          val = scrollTop / scrollspeed;
+          val = -1(scrollTop / scrollspeed);
       $this.css('transform', 'translateY(' + val + 'px)');
     });
   });
