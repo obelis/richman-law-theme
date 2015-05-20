@@ -1,5 +1,8 @@
 <?php get_header(); ?>
 <div class="page-intro inner-page">
+<?php if ( function_exists('yoast_breadcrumb') ) {
+yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+} ?>
 </div>
 <div class="container">
 	<div class="row">
