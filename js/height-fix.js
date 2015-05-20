@@ -55,6 +55,7 @@ function heightFixAgain(){
 }
 
 function squareUp(){
+	// Gets all items to be squared
 	var makeSquare = jQuery('.aspect-square');
 	makeSquare.each(function() {
 		var $this = jQuery(this);
