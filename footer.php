@@ -29,9 +29,9 @@
 				       Map
 				    </h3>
 					<div class="textwidget">
-					--map_start<br />
+					
 					<?php echo do_shortcode('[map]'); ?>
-					<br /> --map_end<br />
+					
 					</div>
 				</div>
 	<div class="col-md-4">
