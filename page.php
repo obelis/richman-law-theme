@@ -8,7 +8,13 @@ if ( has_post_thumbnail() ) {
 }
 ?>
 
+
 <div class="page-intro inner-page" style="background-image: url($link);background-size: cover;">
+
+
+<div class="container page-intro-info">
+	<h1 class="page-headline"><?php the_title(); ?></h1>
+</div>
 
 </div>
 <div class="container">
