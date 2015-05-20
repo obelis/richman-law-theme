@@ -93,7 +93,9 @@
         </div>
 	</div><!--/.row-->
 </div><!-- /.container -->
+<div class="container">
 <div class="feature-divider"></div>
+</div>
 <div class="container reviews">
 	<div class="jumbotron">
         <div class="row">
