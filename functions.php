@@ -443,7 +443,7 @@ class map_shortcode {
 		add_shortcode('map', array(__CLASS__, 'home_mini_map'));
 
 		add_action('init', array(__CLASS__, 'register_script'));
-		add_action('wp_footer', array(__CLASS__, 'print_script'));
+		add_action('wp_head', array(__CLASS__, 'print_script'));
 	}
 
 	static function home_mini_map($atts) {
@@ -542,7 +542,7 @@ class map_shortcode {
 	}
 
 	static function register_script() {
-		wp_register_script('gmaps', '//maps.googleapis.com/maps/api/js?key=AIzaSyCJIUm-gWhV6ryPy1bqfiCz4cQ1ZuB-okc&sensor=false', array(), null, true);
+		wp_register_script('gmaps', '//maps.googleapis.com/maps/api/js?key=AIzaSyCJIUm-gWhV6ryPy1bqfiCz4cQ1ZuB-okc&sensor=false', array(), null, false);
 	}
 
 	static function print_script() {
