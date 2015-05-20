@@ -541,6 +541,7 @@ class map_shortcode {
 
 	}
 
+/*
 	static function register_script() {
 		wp_register_script('gmaps', '//maps.googleapis.com/maps/api/js?key=AIzaSyCJIUm-gWhV6ryPy1bqfiCz4cQ1ZuB-okc&sensor=false', array(), null, false);
 	}
@@ -551,11 +552,17 @@ class map_shortcode {
 
 		wp_print_scripts('gmaps');
 	}
+*/
 }
 
 map_shortcode::init();
 
 
+function add_gmaps_script() {
+	wp_enqueue_script('gmaps', '//maps.googleapis.com/maps/api/js?key=AIzaSyCJIUm-gWhV6ryPy1bqfiCz4cQ1ZuB-okc&sensor=false', array(), null, false);
+}
+
+add_action( 'wp_enqueue_scripts', 'add_gmaps_script' );
 
 
 /**
