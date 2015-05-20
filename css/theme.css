@@ -287,11 +287,14 @@ html, body {
 .feature-box-image{
 	position: absolute;
 	top: 0px;
-	width: calc(100% - 30px);
-	height: calc(100% - 20px);
+	width: 100%;
+	height: 100%;
 	overflow: hidden;
 	z-index: 15;
 	opacity: 1;
+	transition-property: z-index, opacity;
+	transition-duration: .25s;
+	transition-timing-function: ease;
 }
 .feature-box-image img{
 	position:absolute;
@@ -430,7 +433,7 @@ html, body {
 	display: flex;
 	-webkit-flex-direction: column;
 	flex-direction: column;
-	-webkit-justify-contnet: space-between;
+	-webkit-justify-content: space-between;
 	justify-content: space-between;
 }
 
@@ -455,6 +458,7 @@ html, body {
 
 .horizontal-center{
 	align-items: center;
+	align-self: center;
 }
 
 .horizontal-right{
