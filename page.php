@@ -1,15 +1,15 @@
 <?php get_header(); ?>
 <?php 
 if ( has_post_thumbnail() ) {
-	$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'large' );
-	$link = '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute( 'echo=0' ) . '" >';
-	$link .= get_the_post_thumbnail( $post->ID, 'featured' ); 
-	$link .= '</a>';
+	$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' );
+	//$link = '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute( 'echo=0' ) . '" >';
+	//$link .= get_the_post_thumbnail( $post->ID, 'featured' ); 
+	//$link .= '</a>';
 }
 ?>
 
 
-<div class="page-intro inner-page" style="background-image: url(<?=$link;?>);background-size: cover;">
+<div class="page-intro inner-page" style="background-image: url(<?=$large_image_url;?>);background-size: cover;">
 
 
 <div class="container page-intro-info">
