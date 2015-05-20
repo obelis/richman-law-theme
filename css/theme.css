@@ -226,6 +226,12 @@ html, body {
 		height: 60vh;
 		overflow:hidden;
 		position: relative;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-aling-items: center;
+		align-items: center;
 	}
 }
 
@@ -246,20 +252,21 @@ html, body {
 	z-index:-1;
 }
 .page-intro-info{
-	position: absolute;
-	top: 50%;
-	left: 0px;
-	right:0px;
+	position: relative;
+	top: 5%;
 	margin: 0px auto;
 	z-index: 1;
 }
 .page-headline{
-	color: #4d8bc2;
-	text-shadow: 2px 2px 1px #000, 0px 0px 20px #fff;
+	display: inline;
+	background-color:rgba(89,138,197,.8);
+	color: white;;
+	text-shadow: 2px 2px 1px #000;
 	text-align: center;
 	padding: 15px;
 	font-weight: bold;
 	font-size: 42px;
+	border-radius: 5px;
 }
 .page-tagline{
 	color: white;
