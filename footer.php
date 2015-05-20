@@ -33,6 +33,7 @@
 					<?php echo do_shortcode('[map]'); ?>
 					<br /> --map_end<br />
 					</div>
+				</div>
 	<div class="col-md-4">
 				<h3 class="footer_header">
                         Contact
