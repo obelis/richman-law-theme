@@ -435,9 +435,21 @@ function geocoder(){
 
 /* map shortcode */
 // [map location="1, 2 , 3 or 4"]
-function home_mini_map( $atts ){
 
-	$a = shortcode_atts( array(
+class map_shortcode {
+	static $add_script;
+
+	static function init() {
+		add_shortcode('map', array(__CLASS__, 'home_mini_map'));
+
+		add_action('init', array(__CLASS__, 'register_script'));
+		add_action('wp_footer', array(__CLASS__, 'print_script'));
+	}
+
+	static function home_mini_map($atts) {
+		self::$add_script = true;
+
+		$a = shortcode_atts( array(
 		'location' => '',
 	), $atts );
     
@@ -526,12 +538,22 @@ function home_mini_map( $atts ){
 	$result = ob_get_contents();
 	ob_end_clean(); 	 
 	return $result;
+
+	}
+
+	static function register_script() {
+		wp_register_script('gmaps', '//maps.googleapis.com/maps/api/js?key=AIzaSyCJIUm-gWhV6ryPy1bqfiCz4cQ1ZuB-okc&sensor=false', array(), null, false);
+	}
+
+	static function print_script() {
+		if ( ! self::$add_script )
+			return;
+
+		wp_print_scripts('gmaps');
+	}
 }
 
-add_shortcode('map', 'home_mini_map');
-
-
-
+map_shortcode::init();
 
 
 
@@ -555,5 +577,6 @@ function options_stylesheets_get_file_list( $directory_path, $filetype, $directo
 	}
 	return $alt_stylesheets;
 }
+
 
 ?>
