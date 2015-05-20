@@ -443,7 +443,7 @@ class map_shortcode {
 		add_shortcode('map', array(__CLASS__, 'home_mini_map'));
 
 		add_action('init', array(__CLASS__, 'register_script'));
-		add_action('wp_head', array(__CLASS__, 'print_script'));
+		// add_action('wp_footer', array(__CLASS__, 'print_script'));
 	}
 
 	static function home_mini_map($atts) {
