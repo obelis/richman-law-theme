@@ -35,7 +35,7 @@
               <a class="btn btn-primary horizontal-center" href="#">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" alt="Attorney In The News"/>
+            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news-blue-cast.jpg" width="400" height="400" alt="Attorney In The News"/>
             </div>
         </div>
         <div class="col-md-4 feature-box aspect-square">
@@ -45,7 +45,7 @@
               <a class="btn btn-primary horizontal-center" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-tv-appearances.jpg" width="400" height="400" />
+            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-tv-appearances-blue-cast.jpg" width="400" height="400" />
             </div>
         </div>
         <div class="col-md-4 feature-box aspect-square">
@@ -55,7 +55,7 @@
               <a class="btn btn-primary horizontal-center" href="#">Read the Results <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
             <div class="feature-box-image">
-            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-success-stories.jpg" width="400" height="400" />
+            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-success-stories-blue-cast.jpg" width="400" height="400" />
             </div>
         </div>
     </div>
