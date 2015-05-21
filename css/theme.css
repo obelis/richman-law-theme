@@ -8,7 +8,13 @@ margin: 0 0 10px 25px;
 .well{
 	background-color: rgba(227, 227, 227, 0.9);
 }
-
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #727272;
+    border-bottom-style: dotted;
+}
 /* FULL WIDTH CAROUSEL
 -------------------------------------------------- */
 
@@ -657,8 +663,8 @@ html, body {
 	display: block;
 	width:100%;
 	height: 10px;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 /* Feature Divider End */
