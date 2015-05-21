@@ -33,31 +33,24 @@
     	<div class="col-md-4">
         	<div class="well info-box height-fix-item vertical-top horizontal-center">
                 <h2>Media Appearances</h2>
-                <p>The Law Offices of Eric Richman provides outstanding personal injury legal representation to individuals and families who suffered injuries in and around New York, including New York City, Bronx, Queens, Manhattan, Brooklyn, Staten Island, Rockland, Westchester, Long Island, Nassau County or Suffolk County.</p>
-                <a class="btn btn-large btn-primary vertical-push-bottom" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
+                <p>Eric Richman, Esq. is an experienced trial lawyer and one of the best known and most respected personal injury attorneys in New York City. Mr. Richman has been recognized by many of the largest and most popular news outlets in the world including the New York Times, New York Daily News, New York Post, New York Newsday, New York Magazine, WCBS-TV, 1010 WINS, HeadlineNews, truTV (CourtTV) and more.</p>
+                <a class="btn btn-large btn-primary vertical-push-bottom" href="/media/">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
         </div>
         <div class="col-md-4">
         	<div class="well info-box height-fix-item vertical-top horizontal-center">
                 <h2>About Eric Richman</h2>
                 <p>Eric Richman, Esq. is a passionate and experienced New York City personal injury lawyer who has dedicated his career to fighting for injury victims and their families.  Mr. Richman has won millions of dollars for his clients and is one of the best known and most respected personal injury lawyers in NYC </p>
-                <a class="btn btn-large btn-primary vertical-push-bottom" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
+                <a class="btn btn-large btn-primary vertical-push-bottom" href="/attorneys/">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
         </div>
         <div class="col-md-4">
         	<div class="well info-box height-fix-item vertical-top horizontal-center">
                 <h2>Settlements &amp; Verdicts</h2>
-                <ul>
-                    <li>Personal Injury</li>
-                    <li>Car and Truck Accidents</li>
-                    <li>Bus and Subway Accidents</li>
-                    <li>Motorcycle Bicycle Accidents</li>
-                    <li>Premises Liability</li>
-                    <li>Sexual Assualt Victims</li>
-                    <li>Medical Malpractice</li>
-                    <li>Wrongful Death and Catastrophic Injuries</li>
-                </ul>
-                <a class="btn btn-large btn-primary vertical-push-bottom" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
+                <p>
+                The Law Offices of Eric Richman have recovered millions of dollars in compensation for clients who have suffered injuries in and around New York, including New York City, Bronx, Queens, Manhattan, Brooklyn, Staten Island, Rockland, Westchester, Long Island, Nassau County or Suffolk County.
+                </p>
+                <a class="btn btn-large btn-primary vertical-push-bottom" href="/results/">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
         </div>
 	</div><!--/.row-->
