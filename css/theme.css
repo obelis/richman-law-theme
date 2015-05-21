@@ -144,10 +144,18 @@ height: 350px;
 	outline-style: none;
 	font-size: 18px;
 	font-family: inherit;
-	padding: 15px 12px 15px 12px;
+	padding: 10px;
 	letter-spacing: normal;
 }
 
+.gform_wrapper textarea {
+	outline-style: none;
+	font-size: 18px;
+	font-family: inherit;
+	letter-spacing: normal;
+	padding: 10px;
+	resize: none;
+}
 
 .spacer{
 	width: 100%;
