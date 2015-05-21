@@ -165,7 +165,7 @@ select::-moz-focus-inner { /*Remove button padding in FF*/
     }
 }
 
-.footer gform_button{
+.footer .gform_button{
 	display: inline-block;
 	padding: 8px 12px;
 	margin-bottom: 0;
