@@ -148,6 +148,23 @@ height: 350px;
 	background-color: rgba(255,255,255,0.9);
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {  /*safari and chrome*/
+    select {
+        height:30px;
+        line-height:30px;
+        background:#f4f4f4;
+    } 
+}
+select::-moz-focus-inner { /*Remove button padding in FF*/ 
+    border: 0;
+    padding: 0;
+}
+@-moz-document url-prefix() { /* targets Firefox only */
+    select {
+        padding: 15px 0!important;
+    }
+}
+
 
 .spacer{
 	width: 100%;
