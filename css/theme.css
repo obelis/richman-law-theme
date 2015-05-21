@@ -140,22 +140,14 @@ height: 350px;
 	display: inline-block;
 }
 
-.footer .gform_wrapper input[type=text],.footer .gform_wrapper input[type=url], .footer .gform_wrapper input[type=email], .footer .gform_wrapper input[type=tel], .footer .gform_wrapper input[type=number], .footer .gform_wrapper input[type=password] {
-	outline-style: none;
+.footer .gform_wrapper textarea, .footer .gform_wrapper input[type=text], .footer .gform_wrapper input[type=url], .footer .gform_wrapper input[type=email], .footer .gform_wrapper input[type=tel], .footer .gform_wrapper input[type=number], .footer .gform_wrapper input[type=password] {
+
 	font-size: 18px;
-	font-family: inherit;
+	
 	padding: 10px;
-	letter-spacing: normal;
+	background-color: rgba(255,255,255,0.9);
 }
 
-.gform_wrapper textarea {
-	outline-style: none;
-	font-size: 18px;
-	font-family: inherit;
-	letter-spacing: normal;
-	padding: 10px;
-	resize: none;
-}
 
 .spacer{
 	width: 100%;
