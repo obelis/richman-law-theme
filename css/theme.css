@@ -124,7 +124,7 @@ margin-right: 20px;
 margin-bottom: 70px;
 width: 93%;
 }
-.footer h1, .footer h2, .footer h3, {
+.footer h1, .footer h2, .footer h3 {
 	text-align: center;
 }
 /* Set height of footer map*/
