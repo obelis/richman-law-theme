@@ -18,7 +18,7 @@
 <body <?php body_class(); ?>>
 	<div class="container header">
     	<div class="header-inner-container">
-    	<div class="row vertical-center-md">
+    	<div class="row vertical-center-sm">
         	<div class="col-lg-4 col-md-6 col-sm-3">
 		<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-law-temp-logo.svg" alt="The Law Offices of Eric Richman Attornery" class="img-responsive logo" />
         	</div>
