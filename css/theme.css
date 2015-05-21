@@ -131,6 +131,10 @@ width: 93%;
 #footer-cta {
 	text-align: center;
 }
+/* Default height of map*/
+.map{
+height: 350px;	
+}
 /* Set height of footer map*/
 .footer .map{
 height: 350px;	
