@@ -32,7 +32,7 @@
 	<div class="row height-fix">
     	<div class="col-md-4">
         	<div class="well info-box height-fix-item vertical-top horizontal-center">
-                <h2>Media</h2>
+                <h2>Media Appearances</h2>
                 <p>The Law Offices of Eric Richman provides outstanding personal injury legal representation to individuals and families who suffered injuries in and around New York, including New York City, Bronx, Queens, Manhattan, Brooklyn, Staten Island, Rockland, Westchester, Long Island, Nassau County or Suffolk County.</p>
                 <a class="btn btn-large btn-primary vertical-push-bottom" href="#">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
@@ -46,7 +46,7 @@
         </div>
         <div class="col-md-4">
         	<div class="well info-box height-fix-item vertical-top horizontal-center">
-                <h2>Results</h2>
+                <h2>Settlements &amp; Verdicts</h2>
                 <ul>
                     <li>Personal Injury</li>
                     <li>Car and Truck Accidents</li>
