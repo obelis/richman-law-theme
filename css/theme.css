@@ -183,7 +183,7 @@ select::-moz-focus-inner { /*Remove button padding in FF*/
 	border-color: #4d8bc2;
 	width: 50%;
 	float: right;
-	margin-right: 15px;
+	margin-right: 20px;
 }
 .spacer{
 	width: 100%;
