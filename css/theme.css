@@ -135,6 +135,9 @@ width: 93%;
 .footer .map{
 height: 350px;	
 }
+.footer .gform_wrapper ul li.gfield {
+	clear: none;
+}
 
 .spacer{
 	width: 100%;
