@@ -29,7 +29,7 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');
 <?php while (have_posts ()) : the_post(); ?>
 	
 	<div class="post"> 
-		<h2 class="title"><?php the_title(); ?></h2>
+		<h1 class="title"><?php the_title(); ?></h1>
 		<?php the_content(''); ?>
 	</diV>
 	
