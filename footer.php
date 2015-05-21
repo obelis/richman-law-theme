@@ -11,6 +11,7 @@
 				<hr />
 				<h2>REQUEST A FREE CONSULTATION</h2>				
 				<h3>Fill out the form below to receive a free and confidential consultation.</h3>
+				 <h3 class="footer_header">Phone: <a href="tel:+12126883965"><span itemprop="telephone">212.688.3965</span></a></h3>
 				<hr />
 				<?php echo do_shortcode('[gravityform id="1" name="Request A Free Consultation" title="false" description="false"]'); ?>
 
