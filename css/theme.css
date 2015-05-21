@@ -227,7 +227,7 @@ html, body {
 
 @media (min-width: 769px){
 	.page-intro{
-		height: 60vh;
+		height: 40vw;
 		overflow:hidden;
 		position: relative;
 		display: -webkit-flex;
@@ -263,7 +263,7 @@ html, body {
 }
 .page-headline{
 	display: inline;
-	background-color:rgba(89,138,197,.8);
+/* 	background-color:rgba(89,138,197,.8); */
 	color: white;;
 	text-shadow: 2px 2px 1px #000;
 	text-align: center;

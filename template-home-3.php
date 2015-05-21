@@ -27,38 +27,7 @@
 </div>
 
 <div class="container">
-	<div class="row">
-    	<div class="col-md-4 feature-box aspect-square">
-        	<div class="feature-box-content well vertical-stretch-xs vertical-justify">
-            <h2>In The News</h2>
-              <p>Eric Richman has been featured in countless news articles and stories.</p>
-              <a class="btn btn-primary horizontal-center" href="/media/">Get the Stories <span class="glyphicon glyphicon-arrow-right"></span></a>
-            </div>
-            <div class="feature-box-image">
-            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-in-the-news.jpg" width="400" height="400" alt="Attorney In The News"/>
-            </div>
-        </div>
-        <div class="col-md-4 feature-box aspect-square">
-        	<div class="feature-box-content well vertical-stretch-xs vertical-justify">
-            <h2>TV Appearances</h2>
-              <p>See Eric Richman in action interviewed on CNN.</p>
-              <a class="btn btn-primary horizontal-center" href="#">See the Action <span class="glyphicon glyphicon-arrow-right"></span></a>
-            </div>
-            <div class="feature-box-image">
-            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-tv-appearances.jpg" width="400" height="400" />
-            </div>
-        </div>
-        <div class="col-md-4 feature-box aspect-square">
-        	<div class="feature-box-content well vertical-stretch-xs vertical-justify">
-            <h2>Success Stories</h2>
-              <p>Eric Richman works for you producing real results.</p>
-              <a class="btn btn-primary horizontal-center" href="/results/">Read the Results <span class="glyphicon glyphicon-arrow-right"></span></a>
-            </div>
-            <div class="feature-box-image">
-            	<img src="<?php bloginfo('template_url'); ?>/images/eric-richman-attorney-success-stories.jpg" width="400" height="400" />
-            </div>
-        </div>
-    </div>
+
     <div class="feature-divider"></div>
 	<div class="row height-fix">
     	<div class="col-md-4">
@@ -97,32 +66,6 @@
 <div class="feature-divider"></div>
 </div>
 <div class="container reviews">
-	<div class="jumbotron">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="well">
-                <h3><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><br /><small>Kelsey Plantas</small></h3><p>Eric is a great attorney. He is highly knowledgable, professional, and personable. He made me feel comfortable throughout the whole process of settling my case. Eric also made sure that I understood every step towards settlement, which made me feel more at ease with the decisions I had to make. I would definitely recommend working with Eric.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="well">
-                <h3><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><br /><small>Marisa Kronenberg</small></h3><p>Eric Richman is very honest, intelligent, and easy to talk to. He made himself available to me whenever I had questions and I always felt at ease knowing he was working hard for my case. He exceeded my expectations and I would recommend him to anyone looking for a personal injury lawyer!</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="well">
-                <h3><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><br /><small>Paula Medeiros</small></h3><p>Extremely aggressive. Have already recommended him to a friend who also got in an accident. 10 out of 10!</p>
-                </div>
-                <div class="well">
-                <h3><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><br /><small>Shad Azimi</small></h3><p>Excellent communicator with deep knowledge of the legal process. Also very responsive. Highly recommended.</p>
-                </div>
-            </div>
-        </div><!--/row-->
-        <div class="row">
-            <div class="col-xs-12">
-                <a class="btn btn-large btn-primary" href="https://plus.google.com/104401465280386732812/" target="_blank">Read More Reviews</a>
-            </div>
-    	</div><!-- /.row -->
-	</div><!-- /.jumbotron -->
+	
 </div><!-- /.container -->
 <?php get_footer(); ?>
