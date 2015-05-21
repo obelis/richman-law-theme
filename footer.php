@@ -9,7 +9,7 @@
           <div class="row">
 			<div class="col-md-12">
 				
-				<?php do_shortcode('[gravityform id="1" name="Request A Free Consultation" title="false" description="false"]'); ?>
+				<?php echo do_shortcode('[gravityform id="1" name="Request A Free Consultation" title="false" description="false"]'); ?>
 
 			</div>
         	
