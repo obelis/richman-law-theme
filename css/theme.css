@@ -137,6 +137,7 @@ height: 350px;
 }
 .footer .gform_wrapper ul li.gfield {
 	clear: none;
+	display: inline-block;
 }
 
 .spacer{
