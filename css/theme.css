@@ -5,6 +5,9 @@ margin: 0 0 10px 25px;
 .well, .jumbotron{
 	box-shadow: 0px 0px 10px #000;
 }
+.well{
+	background-color: rgba(227, 227, 227, 0.9);
+}
 
 /* FULL WIDTH CAROUSEL
 -------------------------------------------------- */
