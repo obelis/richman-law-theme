@@ -386,9 +386,11 @@ html, body {
 	z-index:-1;
 }
 
+/*
 .info-box{
 	margin-bottom:0px;
 }
+*/
 .info-box h2{
 	text-align:center;
 }
