@@ -143,7 +143,7 @@ height: 350px;
 .footer .gform_wrapper textarea, .footer .gform_wrapper input[type=text], .footer .gform_wrapper input[type=url], .footer .gform_wrapper input[type=email], .footer .gform_wrapper input[type=tel], .footer .gform_wrapper input[type=number], .footer .gform_wrapper input[type=password] {
 
 	font-size: 18px;
-	
+	border: 2px solid rgba(0,0,0,0.2);
 	padding: 10px;
 	background-color: rgba(255,255,255,0.9);
 }
