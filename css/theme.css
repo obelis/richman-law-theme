@@ -273,6 +273,7 @@ html, body {
 	font-weight: bold;
 	font-size: 42px;
 	border-radius: 5px;
+	text-align: center;
 }
 .page-tagline{
 	color: white;
