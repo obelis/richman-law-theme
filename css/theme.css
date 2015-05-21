@@ -16,7 +16,7 @@ hr {
     border-style: dotted;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .footer .gform_button:hover {
     color: #fff;
     background-color: #ee9e5c;
     border-color: #a5360f
