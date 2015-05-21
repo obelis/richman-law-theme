@@ -140,6 +140,15 @@ height: 350px;
 	display: inline-block;
 }
 
+.footer .gform_wrapper input[type=text],.footer .gform_wrapper input[type=url], .footer .gform_wrapper input[type=email], .footer .gform_wrapper input[type=tel], .footer .gform_wrapper input[type=number], .footer .gform_wrapper input[type=password] {
+	outline-style: none;
+	font-size: 18px;
+	font-family: inherit;
+	padding: 15px 12px 15px 12px;
+	letter-spacing: normal;
+}
+
+
 .spacer{
 	width: 100%;
 	padding: 15px;
