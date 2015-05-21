@@ -165,7 +165,23 @@ select::-moz-focus-inner { /*Remove button padding in FF*/
     }
 }
 
-
+.footer gform_button button{
+	display: inline-block;
+	padding: 8px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #4d8bc2;
+	border-color: #4d8bc2;
+}
 .spacer{
 	width: 100%;
 	padding: 15px;
