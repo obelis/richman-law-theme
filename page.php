@@ -13,7 +13,7 @@ if ( has_post_thumbnail() ) {
 
 
 <div class="container page-intro-info">
-	<h1 class="page-headline"><?php the_title(); ?></h1>
+	
 </div>
 
 </div>
