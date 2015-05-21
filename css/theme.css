@@ -264,7 +264,7 @@ html, body {
 	z-index: 1;
 }
 .page-headline{
-	display: inline;
+/* 	display: inline; */
 /* 	background-color:rgba(89,138,197,.8); */
 	color: white;;
 	text-shadow: 2px 2px 1px #000;
@@ -274,6 +274,7 @@ html, body {
 	font-size: 42px;
 	border-radius: 5px;
 	text-align: center;
+	line-height: 50px;
 }
 .page-tagline{
 	color: white;
