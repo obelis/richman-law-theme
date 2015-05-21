@@ -652,7 +652,7 @@ html, body {
 	border-bottom: 2px solid white;
 }
 /* dark */
-.feature-divider::before{
+.feature-divider-dark::before{
 	content: "";
 	display: block;
 	width:100%;
