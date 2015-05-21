@@ -9,6 +9,11 @@
           <div class="row">
 			<div class="col-md-12">
 				
+				<h2>REQUEST A FREE CONSULTATION</h2>
+				<hr />
+				<hr />
+<h3>Fill out the form below to receive a free and confidential consultation.</h3>
+				
 				<?php echo do_shortcode('[gravityform id="1" name="Request A Free Consultation" title="false" description="false"]'); ?>
 
 			</div>
