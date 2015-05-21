@@ -229,7 +229,7 @@ html, body {
 
 @media (min-width: 769px){
 	.page-intro{
-		height: 40vw;
+		height: 35vw;
 		overflow:hidden;
 		position: relative;
 		display: -webkit-flex;
@@ -259,7 +259,7 @@ html, body {
 }
 .page-intro-info{
 	position: relative;
-	top: 5%;
+	top: 15%;
 	margin: 0px auto;
 	z-index: 1;
 }
