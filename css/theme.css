@@ -114,7 +114,8 @@ margin: 0 0 10px 25px;
 .footer {
 	min-height: 260px;
 	margin-top: 35px;
-	background-color: #252528;
+/* 	background-color: #252528; */
+	background-color: rgba(37, 37, 40, 0.9);
 	color: white;
 	padding-top: 35px;
 /* 	width: 100%; */
