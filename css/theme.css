@@ -302,7 +302,7 @@ html, body {
 
 /* Page Big Intro Styles */
 
-@media (max-width: 768px){
+@media all and (max-width: 768px){
 	.page-intro{
 		margin-top: 0px;
 		overflow: hidden;
