@@ -27,7 +27,7 @@
 
 
       <footer>
-      	&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?>
+      	&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?> | <a href="/privacy-policy/">Privacy Policy</a> <a href="/legal-disclaimer/">Legal Disclaimer</a>
       </footer>
 
 
