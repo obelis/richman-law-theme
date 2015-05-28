@@ -311,7 +311,8 @@ html, body {
 		height: calc((100vw / 16) * 9);
 	}
 	.page-intro img{
-		
+		width: 100%;
+		height: auto;
 	}	
 }
 
