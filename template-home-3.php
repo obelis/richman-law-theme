@@ -30,13 +30,7 @@
 
     <div class="feature-divider"></div>
 	<div class="row height-fix">
-    	<div class="col-md-4">
-        	<div class="well info-box height-fix-item vertical-top horizontal-center">
-                <h2>Media Appearances</h2>
-                <p>Eric Richman, Esq. is an experienced trial lawyer and one of the best known and most respected personal injury attorneys in New York City. Mr. Richman has been recognized by many of the largest and most popular news outlets in the world including the New York Times, New York Daily News, New York Post, New York Newsday, New York Magazine, WCBS-TV, 1010 WINS, HeadlineNews, truTV (CourtTV) and more.</p>
-                <a class="btn btn-large btn-primary vertical-push-bottom" href="/media/">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
-            </div>
-        </div>
+
         <div class="col-md-4">
         	<div class="well info-box height-fix-item vertical-top horizontal-center">
                 <h2>About Eric Richman</h2>
@@ -51,6 +45,13 @@
                 The Law Offices of Eric Richman have recovered millions of dollars in compensation for clients who have suffered injuries in and around New York, including New York City, Bronx, Queens, Manhattan, Brooklyn, Staten Island, Rockland, Westchester, Long Island, Nassau County or Suffolk County.
                 </p>
                 <a class="btn btn-large btn-primary vertical-push-bottom" href="/settlements-verdicts/">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
+            </div>
+        </div>
+    	<div class="col-md-4">
+        	<div class="well info-box height-fix-item vertical-top horizontal-center">
+                <h2>Media Appearances</h2>
+                <p>Eric Richman, Esq. is an experienced trial lawyer and one of the best known and most respected personal injury attorneys in New York City. Mr. Richman has been recognized by many of the largest and most popular news outlets in the world including the New York Times, New York Daily News, New York Post, New York Newsday, New York Magazine, WCBS-TV, 1010 WINS, HeadlineNews, truTV (CourtTV) and more.</p>
+                <a class="btn btn-large btn-primary vertical-push-bottom" href="/media/">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
         </div>
 	</div><!--/.row-->
