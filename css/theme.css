@@ -309,6 +309,9 @@ html, body {
 		position:relative;
 		padding-top: 160px;
 		height: calc((100vw / 16) * 9);
+	}
+	.page-intro img{
+		
 	}	
 }
 
