@@ -50,7 +50,7 @@
                 <p>
                 The Law Offices of Eric Richman have recovered millions of dollars in compensation for clients who have suffered injuries in and around New York, including New York City, Bronx, Queens, Manhattan, Brooklyn, Staten Island, Rockland, Westchester, Long Island, Nassau County or Suffolk County.
                 </p>
-                <a class="btn btn-large btn-primary vertical-push-bottom" href="/results/">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
+                <a class="btn btn-large btn-primary vertical-push-bottom" href="/settlements-verdicts/">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
         </div>
 	</div><!--/.row-->
