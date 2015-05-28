@@ -142,8 +142,11 @@ hr {
 	background-color: rgba(37, 37, 40, 0.8);
 	color: white;
 	padding-top: 35px;
-	padding-bottom: 35px;
+	
 /* 	width: 100%; */
+}
+footer{
+	padding-bottom: 35px;
 }
 .footer .post img {
 float: left;
