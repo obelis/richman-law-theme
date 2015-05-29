@@ -301,21 +301,20 @@ html, body {
 /* Site Header Styles End */
 
 /* Page Big Intro Styles */
-
-
+	.page-intro img{
+		width: 100%;
+		height: auto;
+	}	
+@media (max-width: 768px){
 	.page-intro{
 		margin-top: 0px;
 		overflow: hidden;
 		position:relative;
 		padding-top: 160px;
-/* 		height: calc((100vw / 16) * 9); */
-		height: 100px;
+		height: calc((100vw / 16) * 9);
 	}
-	.page-intro img{
-		width: 100%;
-		height: auto;
-	}	
 
+}
 
 @media (min-width: 769px){
 	.page-intro{
