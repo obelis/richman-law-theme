@@ -259,6 +259,7 @@ html, body {
 		padding:3px;
 		box-sizing:border-box;
 		background-color: transparent;
+	}
 }
 .navbar{
 	margin:0px;
@@ -290,7 +291,7 @@ html, body {
 }
 @media (min-width: 768px){
 	.header{
-			height:140px;
+		height:140px;
 	}
 }
 @media (min-width: 992px){
@@ -305,14 +306,7 @@ html, body {
 		width: 100%;
 		height: auto;
 	}	
-	.page-intro{
-		margin-top: 0px;
-		overflow: hidden;
-		position:relative;
-		padding-top: 160px;
-		height: calc((100vw / 16) * 9);
-	}
-	
+
 @media (max-width: 768px){
 	.page-intro{
 		margin-top: 0px;
