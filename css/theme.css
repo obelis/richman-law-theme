@@ -686,7 +686,7 @@ html, body {
 	height: 5px;
 	border-top: 1px dotted white;
 	border-bottom: 1px dotted white;
-	background-color: rgba(0,0,0,.7);
+	background-color: rgba(0,0,0,.3);
 }
 /* dark */
 .feature-divider-dark::before{
