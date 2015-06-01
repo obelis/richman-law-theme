@@ -677,6 +677,7 @@ html, body {
 	height:50px;
 	-webkit-align-items: center;
 	align-items: center;
+	margin-top: -20px;
 }
 
 .feature-divider::before{
