@@ -674,7 +674,7 @@ html, body {
 	display: -webkit-flex;
 	display: flex;
 	width:100%;
-	height:15vh;
+	height:50px;
 	-webkit-align-items: center;
 	align-items: center;
 }
