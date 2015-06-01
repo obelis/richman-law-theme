@@ -134,8 +134,8 @@ hr {
 }
 */
 body.home{
-	background-image: url('/wp-content/uploads/sites/12/2015/06/Queensboro-Bridge-over-New-York-web_bg.jpg');
-	background-size: contain ;
+	background-image: url('/wp-content/uploads/sites/12/2015/06/Bigstock_40021627.jpg');
+	background-size: cover ;
 	background-position:center;
 	background-repeat: no-repeat;
 }
