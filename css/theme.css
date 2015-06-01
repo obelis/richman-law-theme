@@ -135,9 +135,11 @@ hr {
 */
 body.home{
 	background-image: url('/wp-content/uploads/sites/12/2015/06/bigstock-Upper-East-Side-New-York-City-50226176.png');
-	background-size: contain ;
+	background-size: cover ;
+/*
 	background-position:center top;
 	background-repeat: no-repeat;
+*/
 }
 .header img.logo{
 	margin: 10px 0 10px 0;
