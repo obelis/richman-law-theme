@@ -19,8 +19,8 @@
 	</div><!-- /.carousel-inner -->
 </div><!-- carousel -->
 */ ?>
-<div class="fluid-container page-intro">
-    <img src="/wp-content/uploads/sites/12/2015/06/Queensboro-Bridge-over-New-York-web_bg.jpg" alt="Queensboro Bridge leading to Upper East Side Manhattan New York City" />
+<div class="fluid-container page-intro" style="background-image: url('/wp-content/uploads/sites/12/2015/06/Queensboro-Bridge-over-New-York-web_bg.jpg'); background-size: cover;" >
+<!--     <img src="/wp-content/uploads/sites/12/2015/06/Queensboro-Bridge-over-New-York-web_bg.jpg" alt="Queensboro Bridge leading to Upper East Side Manhattan New York City" /> -->
     <div class="container page-intro-info">
     	<h1 class="page-headline fade-away" data-scroll-speed="2">Personal&nbsp;Injury&nbsp;Justice for&nbsp;New&nbsp;York&nbsp;City</h1>
     </div>
