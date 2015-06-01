@@ -144,6 +144,7 @@ hr {
 	background-color: rgba(37, 37, 40, 0.8);
 	color: white;
 	padding-top: 35px;
+	border-top: 4px solid rgba(37, 37, 40, 0.3);
 	
 /* 	width: 100%; */
 }
