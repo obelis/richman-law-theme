@@ -145,7 +145,7 @@ body.home{
 /* production path*/
 body.home{
 	background-image: url('/wp-content/uploads/sites/12/2015/06/New-York-City-skyline-bg.jpg');
-	background-size: cover ;
+	background-size: contain ;
 	background-position:center top;
 	background-repeat: no-repeat;
 }
