@@ -55,9 +55,11 @@
 	/*End: Prevent the default white background on blur of top navigation */
 
   /*Start : Automatically start the slider */
+/*
 	jQuery('.carousel').carousel({
       interval: 5000
    });
+*/
 	/*End: Automatically start the slider */
 
 });
