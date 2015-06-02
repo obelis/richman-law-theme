@@ -1,6 +1,6 @@
 jQuery(window).on('scroll', function(){
 	var scrollPosition = jQuery('.header').offset();
-	var scrolledActive = 100;
+	var scrolledActive = 70;
 	if (scrollPosition.top > scrolledActive){
 		jQuery('.header').addClass('scrolled');
 

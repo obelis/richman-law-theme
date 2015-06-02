@@ -137,9 +137,14 @@ hr {
 body.home{
 	background-image: url('http://wp-test.dev/app/uploads/sites/12/2015/06/New-York-City-skyline-bg.jpg');
 	background-size: contain ;
-	background-position:center 150px;
+	background-position:center 120px;
 	background-repeat: no-repeat;
 }
+
+body.home.admin-bar{
+	background-position:center 150px;
+}
+
 /* production path*/
 body.home{
 	background-image: url('/wp-content/uploads/sites/12/2015/06/New-York-City-skyline-bg.jpg');
@@ -252,7 +257,7 @@ html, body {
 	transition-property:height, background-color;
 	transition-timing-function: ease-in-out;
 	transition-duration: .5s;
-	background-color: rgba(37, 37, 40, 0.8);
+	background-color: rgba(37, 37, 40, 0.9);
 	border-bottom: 5px solid rgba(255,255,255, 0.2);
 }
 .header img.logo{
@@ -309,7 +314,7 @@ html, body {
 }
 @media (min-width: 768px){
 	.header{
-		height:140px;
+		height:120px;
 	}
 }
 @media (min-width: 992px){
@@ -348,6 +353,14 @@ html, body {
 		-webkit-align-items: center;
 		align-items: center;
 	}
+	.scrolled .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbar-nav>li>a {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
 }
 
 .page-intro.inner-page{
