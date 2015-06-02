@@ -426,6 +426,9 @@ html, body {
 	border-radius: 5px;
 	text-align: center;
 	line-height: 55px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-bottom: 10px solid rgba(77, 139, 194, 0.5); 
+	border-top: 10px solid rgba(77, 139, 194, 0.5); 
 }
 .page-tagline{
 	color: white;
