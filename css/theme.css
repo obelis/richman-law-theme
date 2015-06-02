@@ -151,6 +151,34 @@ body.home{
 
 }
 
+/* ticker*/
+.marquee {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    -webkit-animation: marquee 50s linear infinite;
+    font-size: 26px;
+    color: white;
+    background-color: rgba(37, 37, 40, 0.8);
+}
+
+.marquee:hover {
+    -webkit-animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { text-indent: 27.5em }
+    100% { text-indent: -105em }
+}
+@-webkit-keyframes marquee {
+    0%   { text-indent: 100% }
+    100% { text-indent: -105% }
+}
+
+
 
 .header img.logo{
 	margin: 10px 0 10px 0;

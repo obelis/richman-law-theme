@@ -23,10 +23,18 @@
 <!-- <div class="fluid-container page-intro" style="background-image: url('/wp-content/uploads/sites/12/2015/06/Queensboro-Bridge-over-New-York-web_bg.jpg'); background-size: cover; background-position: bottom" > -->
 <!--     <img src="/wp-content/uploads/sites/12/2015/06/Queensboro-Bridge-over-New-York-web_bg.jpg" alt="Queensboro Bridge leading to Upper East Side Manhattan New York City" /> -->
     <div class="container page-intro-info">
-    	<h1 class="page-headline fade-away" data-scroll-speed="2">Personal&nbsp;Injury&nbsp;Justice for&nbsp;New&nbsp;York&nbsp;City</h1>
+    	<h1 class="page-headline fade-away" data-scroll-speed="2">We're New York City Personal Injury Attornys</h1>
+    	<h2 class="page-headline fade-away" data-scroll-speed="2">That get Results For Our Clients.</h2>
     </div>
+    
 </div>
-
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<p class="marquee">Medical Malpractice – $2.2 Million Award | Sexual Assault Victim – $2  Million Settlement | Premises Liability/NYC Personal Injury – $875,000 Settlement | Car and Truck Accidents – $750,000 Award | Trip and Fall Accidents – $400,000 Settlement | Slip and Fall Accidents – $325,000 Award | Motorcycle Accidents – $250,000 Settlement | Car and Pedestrian Accidents – $225,000 Settlement</p>
+	</div>
+</div>
+</div>
 <div class="container">
 
     <div class="feature-divider"></div>
