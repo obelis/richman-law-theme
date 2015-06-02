@@ -137,7 +137,7 @@ hr {
 body.home{
 	background-image: url('http://wp-test.dev/app/uploads/sites/12/2015/06/New-York-City-skyline-bg.jpg');
 	background-size: contain ;
-	background-position:center -50px;
+	background-position:center 150px;
 	background-repeat: no-repeat;
 }
 /* production path*/
@@ -338,7 +338,7 @@ html, body {
 
 @media (min-width: 769px){
 	.page-intro{
-		height: 35vw;
+		height: 50vw;
 		overflow:hidden;
 		position: relative;
 		display: -webkit-flex;
