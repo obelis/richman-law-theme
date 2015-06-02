@@ -257,7 +257,8 @@ html, body {
 	transition-property:height, background-color;
 	transition-timing-function: ease-in-out;
 	transition-duration: .5s;
-	background-color: rgba(37, 37, 40, 0.9);
+	background-color: rgb(37, 37, 40);
+/* 	background-color: rgba(37, 37, 40, 0.9); */
 	border-bottom: 5px solid rgba(255,255,255, 0.2);
 }
 .header img.logo{
