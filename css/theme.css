@@ -372,7 +372,7 @@ html, body {
 
 @media (min-width: 769px){
 	.page-intro{
-		height: 50vw;
+		height: 45vw;
 		overflow:hidden;
 		position: relative;
 		display: -webkit-flex;
@@ -389,6 +389,9 @@ html, body {
     .navbar-nav>li>a {
         padding-top: 45px;
         padding-bottom: 45px;
+    }
+    .navbar-nav {
+        float: right;
     }
 }
 
@@ -410,7 +413,7 @@ html, body {
 }
 .page-intro-info{
 	position: relative;
-	top: 30%;
+	top: 15%;
 	margin: 0px auto;
 	z-index: 1;
 }
