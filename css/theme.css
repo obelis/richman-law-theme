@@ -146,10 +146,12 @@ body.home.admin-bar{
 }
 
 /* production path*/
+/*
 body.home{
 	background-image: url('/wp-content/uploads/sites/12/2015/06/New-York-City-skyline-bg.jpg');
 
 }
+*/
 
 /* ticker*/
 .marquee {
@@ -268,7 +270,7 @@ select::-moz-focus-inner { /*Remove button padding in FF*/
 }
 .spacer{
 	width: 100%;
-	padding: 30px;
+	padding: 15px;
 	clear: both;
 }
 html, body {
@@ -410,7 +412,7 @@ html, body {
 }
 .page-intro-info{
 	position: relative;
-	top: 15%;
+	top: 30%;
 	margin: 0px auto;
 	z-index: 1;
 }
