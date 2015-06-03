@@ -268,7 +268,7 @@ select::-moz-focus-inner { /*Remove button padding in FF*/
 }
 .spacer{
 	width: 100%;
-	padding: 15px;
+	padding: 30px;
 	clear: both;
 }
 html, body {
