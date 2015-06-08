@@ -10,7 +10,7 @@
 			<div class="col-md-12" id="footer-cta">
 				<hr />
 				<h2>Request A Free Consultation</h2>				
-				<h3>Fill out the form below to receive a free and confidential consultation.</h3>
+				<h3>Fill out the form below to receive a free and confidential&nbsp;consultation.</h3>
 				 <h3 class="footer_header">Please Call Us At: <a href="tel:+18008019655"><span itemprop="telephone">800.801.9655</span></a> 24 Hours a Day : 7 Days a Week.</h3>
 				 <a class="btn btn-large btn-primary ctc visible-xs" href="/media/">Click To Call</a>
 				<hr />
