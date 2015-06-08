@@ -27,6 +27,7 @@
     </div>
     
 </div>
+<!--
 <div class="container">
 <div class="row">
 	<div class="col-md-12">
@@ -34,6 +35,7 @@
 	</div>
 </div>
 </div>
+-->
 <div class="container">
 
     <div class="feature-divider"></div>
@@ -42,7 +44,7 @@
         <div class="col-md-4">
         	<div class="well info-box height-fix-item vertical-top horizontal-center">
                 <h2>About Eric Richman</h2>
-                <p>Eric Richman, Esq. is a passionate and experienced New York City personal injury lawyer who has dedicated his career to fighting for injury victims and their families.  Mr. Richman has won millions of dollars for his clients and is one of the best known and most respected personal injury lawyers in NYC </p>
+                <p>Eric Richman, Esq. is an experienced New York City personal injury lawyer who has dedicated his career to fighting for injury victims and their families.  Mr. Richman has won millions of dollars for his clients and is one of the best known and most respected personal injury lawyers in NYC </p>
                 <a class="btn btn-large btn-primary vertical-push-bottom" href="/legal-team/">Read More <span class="glyphicon glyphicon-arrow-right"></span></a>
             </div>
         </div>

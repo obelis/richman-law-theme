@@ -4,6 +4,9 @@ margin: 0 0 10px 25px;
 p {
 	text-align: justify;
 }
+h2 {
+     border-bottom: 1px dotted black;
+}
 .well, .jumbotron{
 	box-shadow: 0px 0px 10px #000;
 }
@@ -113,10 +116,12 @@ body.home.admin-bar{
 }
 
 /* production path*/
+/*
 body.home{
 	background-image: url('/wp-content/uploads/sites/12/2015/06/New-York-City-skyline-bg.jpg');
 
 }
+*/
 
 /* ticker*/
 .marquee {
@@ -148,7 +153,12 @@ body.home{
 }
 
 
-
+.footer span[itemprop="telephone"] {
+	color: white;
+}
+span[itemprop="telephone"] {
+	font-family: serif;
+}
 .header img.logo{
 	margin: 10px 0 10px 0;
 }
