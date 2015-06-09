@@ -116,12 +116,10 @@ body.home.admin-bar{
 }
 
 /* production path*/
-/*
 body.home{
 	background-image: url('/wp-content/uploads/sites/12/2015/06/New-York-City-skyline-bg.jpg');
 
 }
-*/
 
 /* ticker*/
 .marquee {
