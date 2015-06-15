@@ -1,8 +1,7 @@
 
 
     
-      </div><!--/row-->
-</div><!--/.fluid-container-->
+
 <div class="footer">
 <div class="container">
 
