@@ -42,6 +42,5 @@ yoast_breadcrumb('<p id="breadcrumbs">','</p>');
        </div>
    </div>
 </div>
-      </div><!--/row-->
-</div><!--/.fluid-container-->
+
 <?php get_footer(); ?>
