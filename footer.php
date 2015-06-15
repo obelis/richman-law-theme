@@ -15,7 +15,7 @@
 				<hr />
 				<?php echo do_shortcode('[gravityform id="1" name="Request A Free Consultation" title="false" description="false"]'); ?>
 
-			</div>
+			</div><!-- /.footer-cta -->
         	
           </div><!--/row-->
 
@@ -30,7 +30,7 @@
       	&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?> | <a href="/privacy-policy/">Privacy Policy</a> | <a href="/legal-disclaimer/">Legal Disclaimer</a>
       </footer>
 
-
+</div><!-- /.container -->
 </div><!-- /.footer -->
     <!-- Le javascript
     ================================================== -->
