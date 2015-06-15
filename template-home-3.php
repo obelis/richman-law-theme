@@ -66,10 +66,5 @@
         </div>
 	</div><!--/.row-->
 </div><!-- /.container -->
-<div class="container">
-<div class="feature-divider"></div>
-</div>
-<div class="container reviews">
-	
-</div><!-- /.container -->
+
 <?php get_footer(); ?>
