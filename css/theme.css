@@ -809,3 +809,10 @@ html, body {
 	border-radius: 4px;
 	padding:15px;
 }
+/* media page logos */
+.page-id-58 p img{
+	float: left;
+	border-right: 1px solid black;
+	padding: 0 5px 0 0;
+	margin: 5px 10px 0 0;
+}
