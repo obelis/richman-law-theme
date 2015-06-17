@@ -132,7 +132,19 @@ hr {
   min-width: 100%;
   /* height: 500px; */
 }
-
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 /* development path*/
 body.home{
 	background-image: url('http://wp-test.dev/app/uploads/sites/12/2015/06/New-York-City-skyline-bg.jpg');
