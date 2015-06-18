@@ -10,7 +10,7 @@
 				<hr />
 				<h2>Request A Free Consultation</h2>				
 				<h3>Fill out the form below to receive a free and confidential&nbsp;consultation.</h3>
-				 <h3 class="footer_header">Please&nbsp;Call&nbsp;Us&nbsp;At: <a href="tel:+18008019655"><span itemprop="telephone">800.801.9655</span></a> <span class="hidden-xs">|</span> 24 Hours a Day <span class="hidden-xs">:</span> 7&nbsp;Days&nbsp;a&nbsp;Week.</h3>
+				 <h3 class="footer_header">Please&nbsp;Call&nbsp;Us&nbsp;At: <a href="tel:+18008019655"><span itemprop="telephone">800.801.9655</span></a> <span class="visible-sm-inline">|</span> 24&nbsp;Hours&nbsp;a&nbsp;Day <span class="visible-sm-inline">:</span> 7&nbsp;Days&nbsp;a&nbsp;Week.</h3>
 				 <a class="btn btn-large btn-primary ctc visible-xs" href="tel:+18008019655">Click To Call</a>
 				<hr />
 				<?php echo do_shortcode('[gravityform id="1" name="Request A Free Consultation" title="false" description="false"]'); ?>
