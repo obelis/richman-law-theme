@@ -312,7 +312,6 @@ html, body {
 
 /* Site Header Styles */
 .header{
-	position:fixed;
 	left:0px;
 	right:0px;
 	margin:inherit auto;
@@ -331,6 +330,9 @@ html, body {
 	padding: 5px;
 }
 @media (min-width: 769px){
+	.header{
+		position:fixed;
+	}
 	.header.scrolled{
 		width: 100%;
 		height: 50px;
