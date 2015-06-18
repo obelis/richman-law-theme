@@ -133,7 +133,7 @@ hr {
 }
 .videoWrapper {
 	position: relative;
-	padding-bottom: 75%; /* 16:9 */
+	padding-bottom: 37.5%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
