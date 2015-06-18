@@ -239,6 +239,9 @@ width: 93%;
 #footer-cta {
 	text-align: center;
 }
+#footer-cta h3 {
+	font-size: 2em;
+}
 /* Default height of map*/
 .map{
 height: 350px;	
